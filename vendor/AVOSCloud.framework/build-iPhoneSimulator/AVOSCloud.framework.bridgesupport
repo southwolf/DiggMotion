@@ -1,0 +1,4329 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<constant const='true' declared_type='NSString*' name='AVLoggerDomainCURL' type='@'/>
+<constant const='true' declared_type='NSString*' name='AVLoggerDomainIM' type='@'/>
+<constant const='true' declared_type='NSString*' name='AVNetworkingErrorDomain' type='@'/>
+<constant const='true' declared_type='NSString*' name='AVNetworkingOperationDidFinishNotification' type='@'/>
+<constant const='true' declared_type='NSString*' name='AVNetworkingOperationDidStartNotification' type='@'/>
+<constant const='true' declared_type='NSString*' name='AVNetworkingOperationFailingURLRequestErrorKey' type='@'/>
+<constant const='true' declared_type='NSString*' name='AVNetworkingOperationFailingURLResponseErrorKey' type='@'/>
+<constant const='true' declared_type='NSString*' name='AVNetworkingReachabilityDidChangeNotification' type='@'/>
+<constant const='true' declared_type='NSString*' name='AVNetworkingReachabilityNotificationStatusItem' type='@'/>
+<constant const='true' declared_type='NSInteger' name='AVOSCLOUD_API_VERSION' type='i' type64='q'/>
+<constant declared_type='double' name='AVOSCloudVersionNumber' type='d'/>
+<constant const='true' declared_type='unsigned char*' name='AVOSCloudVersionString' type='^C'/>
+<constant const='true' declared_type='NSString*' name='kAVAmazonS3BaseURLString' type='@'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorAccountAlreadyLinked' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorCacheMiss' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorCommandUnavailable' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorConnectionFailed' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorDuplicateValue' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorExceededQuota' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorFacebookAccountAlreadyLinked' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorFacebookIdMissing' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorFacebookInvalidSession' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorFileDeleteFailure' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorIncorrectType' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInternalServer' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidACL' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidChannelName' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidClassName' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidDeviceToken' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidEmailAddress' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidFileName' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidImageData' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidJSON' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidKeyName' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidLinkedSession' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidNestedKey' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidPointer' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidProductIdentifier' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidPurchaseReceipt' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidQuery' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidRoleName' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorInvalidServerResponse' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorLinkedIdMissing' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorMissingObjectId' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorObjectNotFound' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorObjectTooLarge' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorOperationForbidden' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorPaymentDisabled' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorProductDownloadFileSystemFailure' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorProductNotFoundInAppStore' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorPushMisconfigured' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorReceiptMissing' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorTimeout' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorUnsavedFile' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorUserCanOnlyBeCreatedThroughSignUp' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorUserCannotBeAlteredWithoutSession' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorUserEmailMissing' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorUserEmailTaken' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorUserIdMismatch' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorUserNotFound' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorUserPasswordMissing' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorUserWithEmailNotFound' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorUsernameMissing' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorUsernamePasswordMismatch' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVErrorUsernameTaken' type='i' type64='q'/>
+<constant const='true' declared_type='NSInteger' name='kAVScriptError' type='i' type64='q'/>
+<constant const='true' declared_type='NSString*' name='kAVStatusTypePrivateMessage' type='@'/>
+<constant const='true' declared_type='NSString*' name='kAVStatusTypeTimeline' type='@'/>
+<constant const='true' declared_type='NSTimeInterval' name='kAVUploadStream3GSuggestedDelay' type='d'/>
+<constant const='true' declared_type='NSUInteger' name='kAVUploadStream3GSuggestedPacketSize' type='I' type64='Q'/>
+<constant const='true' declared_type='NSInteger' name='kAVValidationError' type='i' type64='q'/>
+<constant const='true' declared_type='NSString*' name='kPFDeviceType' type='@'/>
+<string_constant name='ACLTag' nsstring='true' value='ACL'/>
+<string_constant name='AVOSCLOUD_VERSION' nsstring='true' value='1.0.0'/>
+<string_constant name='badgeTag' nsstring='true' value='badge'/>
+<string_constant name='channelsTag' nsstring='true' value='channels'/>
+<string_constant name='classNameTag' nsstring='true' value='className'/>
+<string_constant name='dateFormat' nsstring='true' value='yyyy&apos;-&apos;MM&apos;-&apos;dd&apos;T&apos;HH&apos;:&apos;mm&apos;:&apos;ss.SSS&apos;Z&apos;'/>
+<string_constant name='deviceTokenTag' nsstring='true' value='deviceToken'/>
+<string_constant name='deviceTypeTag' nsstring='true' value='deviceType'/>
+<string_constant name='emailTag' nsstring='true' value='email'/>
+<string_constant name='enableTag' nsstring='true' value='enable'/>
+<string_constant name='installationIdTag' nsstring='true' value='installationId'/>
+<string_constant name='mobilePhoneNumberTag' nsstring='true' value='mobilePhoneNumber'/>
+<string_constant name='mobilePhoneVerifiedTag' nsstring='true' value='mobilePhoneVerified'/>
+<string_constant name='passwordTag' nsstring='true' value='password'/>
+<string_constant name='smsCodeTag' nsstring='true' value='smsCode'/>
+<string_constant name='timeZoneTag' nsstring='true' value='timezone'/>
+<string_constant name='usernameTag' nsstring='true' value='username'/>
+<enum name='AVFormURLParameterEncoding' value='0'/>
+<enum name='AVJSONParameterEncoding' value='1'/>
+<enum name='AVNetworkReachabilityStatusNotReachable' value='0'/>
+<enum name='AVNetworkReachabilityStatusReachableViaWWAN' value='1'/>
+<enum name='AVNetworkReachabilityStatusReachableViaWiFi' value='2'/>
+<enum name='AVNetworkReachabilityStatusUnknown' value='-1'/>
+<enum name='AVPropertyListParameterEncoding' value='2'/>
+<enum name='AVStorageTypeParse' value='1'/>
+<enum name='AVStorageTypeQiniu' value='0'/>
+<enum name='AVStorageTypeS3' value='2'/>
+<enum name='AV_BATCH' value='1'/>
+<enum name='AV_REALTIME' value='0'/>
+<enum name='AV_SENDDAILY' value='4'/>
+<enum name='AV_SENDWIFIONLY' value='5'/>
+<enum name='AV_SEND_INTERVAL' value='6'/>
+<enum name='AV_SEND_ON_EXIT' value='7'/>
+<enum name='PARSE_IOS_ONLY' value='1'/>
+<enum name='PARSE_OSX_ONLY' value='0'/>
+<enum name='kAVCachePolicyCacheElseNetwork' value='3'/>
+<enum name='kAVCachePolicyCacheOnly' value='1'/>
+<enum name='kAVCachePolicyCacheThenNetwork' value='5'/>
+<enum name='kAVCachePolicyIgnoreCache' value='0'/>
+<enum name='kAVCachePolicyNetworkElseCache' value='4'/>
+<enum name='kAVCachePolicyNetworkOnly' value='2'/>
+<enum name='kAVDefaultNetworkTimeoutInterval' value='10.0'/>
+<enum name='kPFCachePolicyCacheElseNetwork' value='3'/>
+<enum name='kPFCachePolicyCacheOnly' value='1'/>
+<enum name='kPFCachePolicyCacheThenNetwork' value='5'/>
+<enum name='kPFCachePolicyIgnoreCache' value='0'/>
+<enum name='kPFCachePolicyNetworkElseCache' value='4'/>
+<enum name='kPFCachePolicyNetworkOnly' value='2'/>
+<function name='AVContentTypesFromHTTPHeader'>
+<arg declared_type='NSString*' name='string' type='@'/>
+<retval declared_type='NSSet*' type='@'/>
+</function>
+<function name='AVQueryStringFromParametersWithEncoding'>
+<arg declared_type='NSDictionary*' name='parameters' type='@'/>
+<arg declared_type='NSStringEncoding' name='encoding' type='I' type64='Q'/>
+<retval declared_type='NSString*' type='@'/>
+</function>
+<class name='AVACL'>
+<method class_method='true' selector='ACL'>
+<retval declared_type='AVACL*' type='@'/>
+</method>
+<method class_method='true' selector='ACLWithUser:'>
+<arg declared_type='AVUser*' index='0' name='user' type='@'/>
+<retval declared_type='AVACL*' type='@'/>
+</method>
+<method selector='getPublicReadAccess'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='getPublicWriteAccess'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='getReadAccessForRole:'>
+<arg declared_type='AVRole*' index='0' name='role' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='getReadAccessForRoleWithName:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='getReadAccessForUser:'>
+<arg declared_type='AVUser*' index='0' name='user' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='getReadAccessForUserId:'>
+<arg declared_type='NSString*' index='0' name='userId' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='getWriteAccessForRole:'>
+<arg declared_type='AVRole*' index='0' name='role' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='getWriteAccessForRoleWithName:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='getWriteAccessForUser:'>
+<arg declared_type='AVUser*' index='0' name='user' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='getWriteAccessForUserId:'>
+<arg declared_type='NSString*' index='0' name='userId' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='setDefaultACL:withAccessForCurrentUser:'>
+<arg declared_type='AVACL*' index='0' name='acl' type='@'/>
+<arg declared_type='BOOL' index='1' name='currentUserAccess' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setPublicReadAccess:'>
+<arg declared_type='BOOL' index='0' name='allowed' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setPublicWriteAccess:'>
+<arg declared_type='BOOL' index='0' name='allowed' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setReadAccess:forRole:'>
+<arg declared_type='BOOL' index='0' name='allowed' type='B'/>
+<arg declared_type='AVRole*' index='1' name='role' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setReadAccess:forRoleWithName:'>
+<arg declared_type='BOOL' index='0' name='allowed' type='B'/>
+<arg declared_type='NSString*' index='1' name='name' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setReadAccess:forUser:'>
+<arg declared_type='BOOL' index='0' name='allowed' type='B'/>
+<arg declared_type='AVUser*' index='1' name='user' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setReadAccess:forUserId:'>
+<arg declared_type='BOOL' index='0' name='allowed' type='B'/>
+<arg declared_type='NSString*' index='1' name='userId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setWriteAccess:forRole:'>
+<arg declared_type='BOOL' index='0' name='allowed' type='B'/>
+<arg declared_type='AVRole*' index='1' name='role' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setWriteAccess:forRoleWithName:'>
+<arg declared_type='BOOL' index='0' name='allowed' type='B'/>
+<arg declared_type='NSString*' index='1' name='name' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setWriteAccess:forUser:'>
+<arg declared_type='BOOL' index='0' name='allowed' type='B'/>
+<arg declared_type='AVUser*' index='1' name='user' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setWriteAccess:forUserId:'>
+<arg declared_type='BOOL' index='0' name='allowed' type='B'/>
+<arg declared_type='NSString*' index='1' name='userId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVAmazonS3Client'>
+<method selector='accessKey'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='baseURL'>
+<retval declared_type='NSURL*' type='@'/>
+</method>
+<method selector='bucket'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='deleteBucket:success:failure:'>
+<arg declared_type='NSString*' index='0' name='bucket' type='@'/>
+<arg declared_type='void (^)(id)' function_pointer='true' index='1' name='success' type='@?'>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSError *)' function_pointer='true' index='2' name='failure' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='deleteObjectWithPath:success:failure:'>
+<arg declared_type='NSString*' index='0' name='path' type='@'/>
+<arg declared_type='void (^)(id)' function_pointer='true' index='1' name='success' type='@?'>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSError *)' function_pointer='true' index='2' name='failure' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='enqueueS3RequestOperationWithMethod:path:parameters:success:failure:'>
+<arg declared_type='NSString*' index='0' name='method' type='@'/>
+<arg declared_type='NSString*' index='1' name='path' type='@'/>
+<arg declared_type='NSDictionary*' index='2' name='parameters' type='@'/>
+<arg declared_type='void (^)(id)' function_pointer='true' index='3' name='success' type='@?'>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSError *)' function_pointer='true' index='4' name='failure' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getBucket:success:failure:'>
+<arg declared_type='NSString*' index='0' name='bucket' type='@'/>
+<arg declared_type='void (^)(id)' function_pointer='true' index='1' name='success' type='@?'>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSError *)' function_pointer='true' index='2' name='failure' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getObjectWithPath:outputStream:progress:success:failure:'>
+<arg declared_type='NSString*' index='0' name='path' type='@'/>
+<arg declared_type='NSOutputStream*' index='1' name='outputStream' type='@'/>
+<arg declared_type='void (^)(NSUInteger, long long, long long)' function_pointer='true' index='2' name='progress' type='@?'>
+<arg declared_type='NSUInteger' type='I' type64='Q'/>
+<arg declared_type='long long' type='q'/>
+<arg declared_type='long long' type='q'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(id)' function_pointer='true' index='3' name='success' type='@?'>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSError *)' function_pointer='true' index='4' name='failure' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getObjectWithPath:progress:success:failure:'>
+<arg declared_type='NSString*' index='0' name='path' type='@'/>
+<arg declared_type='void (^)(NSUInteger, long long, long long)' function_pointer='true' index='1' name='progress' type='@?'>
+<arg declared_type='NSUInteger' type='I' type64='Q'/>
+<arg declared_type='long long' type='q'/>
+<arg declared_type='long long' type='q'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(id, NSData *)' function_pointer='true' index='2' name='success' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg declared_type='NSData*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSError *)' function_pointer='true' index='3' name='failure' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getServiceWithSuccess:failure:'>
+<arg declared_type='void (^)(id)' function_pointer='true' index='0' name='success' type='@?'>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSError *)' function_pointer='true' index='1' name='failure' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='headObjectWithPath:success:failure:'>
+<arg declared_type='NSString*' index='0' name='path' type='@'/>
+<arg declared_type='void (^)(id)' function_pointer='true' index='1' name='success' type='@?'>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSError *)' function_pointer='true' index='2' name='failure' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='initWithAccessKeyID:secret:'>
+<arg declared_type='NSString*' index='0' name='accessKey' type='@'/>
+<arg declared_type='NSString*' index='1' name='secret' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='postObjectWithFile:destinationPath:parameters:progress:success:failure:'>
+<arg declared_type='NSString*' index='0' name='path' type='@'/>
+<arg declared_type='NSString*' index='1' name='destinationPath' type='@'/>
+<arg declared_type='NSDictionary*' index='2' name='parameters' type='@'/>
+<arg declared_type='void (^)(NSUInteger, long long, long long)' function_pointer='true' index='3' name='progress' type='@?'>
+<arg declared_type='NSUInteger' type='I' type64='Q'/>
+<arg declared_type='long long' type='q'/>
+<arg declared_type='long long' type='q'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(id)' function_pointer='true' index='4' name='success' type='@?'>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSError *)' function_pointer='true' index='5' name='failure' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='putBucket:parameters:success:failure:'>
+<arg declared_type='NSString*' index='0' name='bucket' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='parameters' type='@'/>
+<arg declared_type='void (^)(id)' function_pointer='true' index='2' name='success' type='@?'>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSError *)' function_pointer='true' index='3' name='failure' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='putObjectWithFile:destinationPath:parameters:progress:success:failure:'>
+<arg declared_type='NSString*' index='0' name='path' type='@'/>
+<arg declared_type='NSString*' index='1' name='destinationPath' type='@'/>
+<arg declared_type='NSDictionary*' index='2' name='parameters' type='@'/>
+<arg declared_type='void (^)(NSUInteger, long long, long long)' function_pointer='true' index='3' name='progress' type='@?'>
+<arg declared_type='NSUInteger' type='I' type64='Q'/>
+<arg declared_type='long long' type='q'/>
+<arg declared_type='long long' type='q'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(id)' function_pointer='true' index='4' name='success' type='@?'>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSError *)' function_pointer='true' index='5' name='failure' type='@?'>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='secret'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='setAccessKey:'>
+<arg declared_type='NSString*' index='0' name='accessKey' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setBaseURL:'>
+<arg declared_type='NSURL*' index='0' name='baseURL' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setBucket:'>
+<arg declared_type='NSString*' index='0' name='bucket' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSecret:'>
+<arg declared_type='NSString*' index='0' name='secret' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVAnalytics'>
+<method class_method='true' selector='beginEvent:'>
+<arg declared_type='NSString*' index='0' name='eventId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='beginEvent:label:'>
+<arg declared_type='NSString*' index='0' name='eventId' type='@'/>
+<arg declared_type='NSString*' index='1' name='label' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='beginEvent:primarykey:attributes:'>
+<arg declared_type='NSString*' index='0' name='eventId' type='@'/>
+<arg declared_type='NSString*' index='1' name='keyName' type='@'/>
+<arg declared_type='NSDictionary*' index='2' name='attributes' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='beginLogPageView:'>
+<arg declared_type='NSString*' index='0' name='pageName' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='endEvent:'>
+<arg declared_type='NSString*' index='0' name='eventId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='endEvent:label:'>
+<arg declared_type='NSString*' index='0' name='eventId' type='@'/>
+<arg declared_type='NSString*' index='1' name='label' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='endEvent:primarykey:'>
+<arg declared_type='NSString*' index='0' name='eventId' type='@'/>
+<arg declared_type='NSString*' index='1' name='keyName' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='endLogPageView:'>
+<arg declared_type='NSString*' index='0' name='pageName' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='event:'>
+<arg declared_type='NSString*' index='0' name='eventId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='event:acc:'>
+<arg declared_type='NSString*' index='0' name='eventId' type='@'/>
+<arg declared_type='NSInteger' index='1' name='accumulation' type='i' type64='q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='event:attributes:'>
+<arg declared_type='NSString*' index='0' name='eventId' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='attributes' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='event:attributes:durations:'>
+<arg declared_type='NSString*' index='0' name='eventId' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='attributes' type='@'/>
+<arg declared_type='int' index='2' name='millisecond' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='event:durations:'>
+<arg declared_type='NSString*' index='0' name='eventId' type='@'/>
+<arg declared_type='int' index='1' name='millisecond' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='event:label:'>
+<arg declared_type='NSString*' index='0' name='eventId' type='@'/>
+<arg declared_type='NSString*' index='1' name='label' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='event:label:acc:'>
+<arg declared_type='NSString*' index='0' name='eventId' type='@'/>
+<arg declared_type='NSString*' index='1' name='label' type='@'/>
+<arg declared_type='NSInteger' index='2' name='accumulation' type='i' type64='q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='event:label:durations:'>
+<arg declared_type='NSString*' index='0' name='eventId' type='@'/>
+<arg declared_type='NSString*' index='1' name='label' type='@'/>
+<arg declared_type='int' index='2' name='millisecond' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='getConfigParams'>
+<retval declared_type='NSDictionary*' type='@'/>
+</method>
+<method class_method='true' selector='getConfigParams:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='logPageView:seconds:'>
+<arg declared_type='NSString*' index='0' name='pageName' type='@'/>
+<arg declared_type='int' index='1' name='seconds' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setAnalyticsEnabled:'>
+<arg declared_type='BOOL' index='0' name='value' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setChannel:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setCrashReportEnabled:'>
+<arg declared_type='BOOL' index='0' name='value' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setCrashReportEnabled:andIgnore:'>
+<arg declared_type='BOOL' index='0' name='value' type='B'/>
+<arg declared_type='BOOL' index='1' name='ignore' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setCrashReportEnabled:withIgnoreAlertTitle:andMessage:andQuitTitle:andContinueTitle:'>
+<arg declared_type='BOOL' index='0' name='value' type='B'/>
+<arg declared_type='NSString*' index='1' name='alertTitle' type='@'/>
+<arg declared_type='NSString*' index='2' name='alertMsg' type='@'/>
+<arg declared_type='NSString*' index='3' name='alertQuit' type='@'/>
+<arg declared_type='NSString*' index='4' name='alertContinue' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setCustomInfo:'>
+<arg declared_type='NSDictionary*' index='0' name='info' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setLatitude:longitude:'>
+<arg declared_type='double' index='0' name='latitude' type='d'/>
+<arg declared_type='double' index='1' name='longitude' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setLocation:'>
+<arg declared_type='CLLocation*' index='0' name='location' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setLogEnabled:'>
+<arg declared_type='BOOL' index='0' name='value' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setLogSendInterval:'>
+<arg declared_type='double' index='0' name='second' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='start'>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='startWithReportPolicy:channelId:'>
+<arg declared_type='AVReportPolicy' index='0' name='rp' type='i'/>
+<arg declared_type='NSString*' index='1' name='cid' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='trackAppOpenedWithLaunchOptions:'>
+<arg declared_type='NSDictionary*' index='0' name='launchOptions' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='trackAppOpenedWithRemoteNotificationPayload:'>
+<arg declared_type='NSDictionary*' index='0' name='userInfo' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='updateOnlineConfig'>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='updateOnlineConfigWithBlock:'>
+<arg declared_type='AVDictionaryResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='NSDictionary*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVAnonymousUtils'>
+<method class_method='true' selector='isLinkedWithUser:'>
+<arg declared_type='AVUser*' index='0' name='user' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='logInWithBlock:'>
+<arg declared_type='AVUserResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='AVUser*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='logInWithTarget:selector:'>
+<arg declared_type='id' index='0' name='target' type='@'/>
+<arg declared_type='SEL' index='1' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVCloud'>
+<method class_method='true' selector='callFunction:withParameters:'>
+<arg declared_type='NSString*' index='0' name='function' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='parameters' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='callFunction:withParameters:error:'>
+<arg declared_type='NSString*' index='0' name='function' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='parameters' type='@'/>
+<arg declared_type='NSError**' index='2' name='error' type='^@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='callFunctionInBackground:withParameters:block:'>
+<arg declared_type='NSString*' index='0' name='function' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='parameters' type='@'/>
+<arg declared_type='AVIdResultBlock' function_pointer='true' index='2' name='block' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='callFunctionInBackground:withParameters:target:selector:'>
+<arg declared_type='NSString*' index='0' name='function' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='parameters' type='@'/>
+<arg declared_type='id' index='2' name='target' type='@'/>
+<arg declared_type='SEL' index='3' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setProductionMode:'>
+<arg declared_type='BOOL' index='0' name='isProduction' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVCloudQueryResult'>
+<method selector='className'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='count'>
+<retval declared_type='NSUInteger' type='I' type64='Q'/>
+</method>
+<method selector='results'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='setClassName:'>
+<arg declared_type='NSString*' index='0' name='className' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setResults:'>
+<arg declared_type='NSArray*' index='0' name='results' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVFile'>
+<method selector='bucket'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='cancel'>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='clearAllCachedFiles'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='clearCacheMoreThanDays:'>
+<arg declared_type='NSInteger' index='0' name='numberOfDays' type='i' type64='q'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='clearCachedFile'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='deleteInBackground'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='deleteInBackgroundWithBlock:'>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='fileWithData:'>
+<arg declared_type='NSData*' index='0' name='data' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='fileWithName:contentsAtPath:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<arg declared_type='NSString*' index='1' name='path' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='fileWithName:data:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<arg declared_type='NSData*' index='1' name='data' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='fileWithURL:'>
+<arg declared_type='NSString*' index='0' name='url' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='getData'>
+<retval declared_type='NSData*' type='@'/>
+</method>
+<method selector='getData:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='NSData*' type='@'/>
+</method>
+<method selector='getDataInBackgroundWithBlock:'>
+<arg declared_type='AVDataResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='NSData*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getDataInBackgroundWithBlock:progressBlock:'>
+<arg declared_type='AVDataResultBlock' function_pointer='true' index='0' name='resultBlock' type='@?'>
+<arg declared_type='NSData*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='AVProgressBlock' function_pointer='true' index='1' name='progressBlock' type='@?'>
+<arg declared_type='NSInteger' type='i' type64='q'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getDataInBackgroundWithTarget:selector:'>
+<arg declared_type='id' index='0' name='target' type='@'/>
+<arg declared_type='SEL' index='1' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getDataStream'>
+<retval declared_type='NSInputStream*' type='@'/>
+</method>
+<method selector='getDataStream:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='NSInputStream*' type='@'/>
+</method>
+<method selector='getDataStreamInBackgroundWithBlock:'>
+<arg declared_type='AVDataStreamResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='NSInputStream*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getDataStreamInBackgroundWithBlock:progressBlock:'>
+<arg declared_type='AVDataStreamResultBlock' function_pointer='true' index='0' name='resultBlock' type='@?'>
+<arg declared_type='NSInputStream*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='AVProgressBlock' function_pointer='true' index='1' name='progressBlock' type='@?'>
+<arg declared_type='NSInteger' type='i' type64='q'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='getFileWithObjectId:withBlock:'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<arg declared_type='AVFileResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='AVFile*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getThumbnail:width:height:withBlock:'>
+<arg declared_type='BOOL' index='0' name='scaleToFit' type='B'/>
+<arg declared_type='int' index='1' name='width' type='i'/>
+<arg declared_type='int' index='2' name='height' type='i'/>
+<arg declared_type='AVImageResultBlock' function_pointer='true' index='3' name='block' type='@?'>
+<arg declared_type='UIImage*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='isDataAvailable'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='isDirty'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='metaData'>
+<retval declared_type='NSMutableDictionary*' type='@'/>
+</method>
+<method selector='metadata'>
+<retval declared_type='NSMutableDictionary*' type='@'/>
+</method>
+<method selector='name'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='objectId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='ownerId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='pathExtension'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='save'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='save:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='saveInBackground'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='saveInBackgroundWithBlock:'>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='saveInBackgroundWithBlock:progressBlock:'>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='AVProgressBlock' function_pointer='true' index='1' name='progressBlock' type='@?'>
+<arg declared_type='NSInteger' type='i' type64='q'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='saveInBackgroundWithTarget:selector:'>
+<arg declared_type='id' index='0' name='target' type='@'/>
+<arg declared_type='SEL' index='1' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setMetaData:'>
+<arg declared_type='NSMutableDictionary*' index='0' name='metaData' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setMetadata:'>
+<arg declared_type='NSMutableDictionary*' index='0' name='metadata' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setObjectId:'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setOwnerId:'>
+<arg declared_type='NSString*' index='0' name='ownerId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='size'>
+<retval declared_type='NSUInteger' type='I' type64='Q'/>
+</method>
+<method selector='url'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+</class>
+<class name='AVFileHTTPRequestOperation'>
+<method selector='localPath'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='setLocalPath:'>
+<arg declared_type='NSString*' index='0' name='localPath' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVGeoPoint'>
+<method selector='distanceInKilometersTo:'>
+<arg declared_type='AVGeoPoint*' index='0' name='point' type='@'/>
+<retval declared_type='double' type='d'/>
+</method>
+<method selector='distanceInMilesTo:'>
+<arg declared_type='AVGeoPoint*' index='0' name='point' type='@'/>
+<retval declared_type='double' type='d'/>
+</method>
+<method selector='distanceInRadiansTo:'>
+<arg declared_type='AVGeoPoint*' index='0' name='point' type='@'/>
+<retval declared_type='double' type='d'/>
+</method>
+<method class_method='true' selector='geoPoint'>
+<retval declared_type='AVGeoPoint*' type='@'/>
+</method>
+<method class_method='true' selector='geoPointForCurrentLocationInBackground:'>
+<arg declared_type='void (^)(AVGeoPoint *, NSError *)' function_pointer='true' index='0' name='geoPointHandler' type='@?'>
+<arg declared_type='AVGeoPoint*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='geoPointWithLatitude:longitude:'>
+<arg declared_type='double' index='0' name='latitude' type='d'/>
+<arg declared_type='double' index='1' name='longitude' type='d'/>
+<retval declared_type='AVGeoPoint*' type='@'/>
+</method>
+<method class_method='true' selector='geoPointWithLocation:'>
+<arg declared_type='CLLocation*' index='0' name='location' type='@'/>
+<retval declared_type='AVGeoPoint*' type='@'/>
+</method>
+<method selector='latitude'>
+<retval declared_type='double' type='d'/>
+</method>
+<method selector='longitude'>
+<retval declared_type='double' type='d'/>
+</method>
+<method selector='setLatitude:'>
+<arg declared_type='double' index='0' name='latitude' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setLongitude:'>
+<arg declared_type='double' index='0' name='longitude' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVGroup'>
+<method class_method='true' selector='createGroupWithSession:groupDelegate:callback:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='id' index='1' name='groupDelegate' type='@'/>
+<arg declared_type='AVGroupResultBlock' function_pointer='true' index='2' name='callback' type='@?'>
+<arg declared_type='AVGroup*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='delegate'>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='getGroupWithGroupId:session:'>
+<arg declared_type='NSString*' index='0' name='groupId' type='@'/>
+<arg declared_type='AVSession*' index='1' name='session' type='@'/>
+<retval declared_type='AVGroup*' type='@'/>
+</method>
+<method selector='groupId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='invite:'>
+<arg declared_type='NSArray*' index='0' name='peerIds' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='invitePeerIds:'>
+<arg declared_type='NSArray*' index='0' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='join'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='kick:'>
+<arg declared_type='NSArray*' index='0' name='peerIds' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='kickPeerIds:'>
+<arg declared_type='NSArray*' index='0' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='quit'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sendMessage:'>
+<arg declared_type='AVMessage*' index='0' name='message' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sendMessage:isTransient:'>
+<arg declared_type='NSString*' index='0' name='message' type='@'/>
+<arg declared_type='BOOL' index='1' name='transient' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sendMessage:transient:'>
+<arg declared_type='AVMessage*' index='0' name='message' type='@'/>
+<arg declared_type='BOOL' index='1' name='transient' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session'>
+<retval declared_type='AVSession*' type='@'/>
+</method>
+<method class_method='true' selector='setDefaultDelegate:'>
+<arg declared_type='id' index='0' name='delegate' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setDelegate:'>
+<arg declared_type='id' index='0' name='delegate' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSession:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVHTTPClient'>
+<method selector='HTTPRequestOperationWithRequest:success:failure:'>
+<arg declared_type='NSURLRequest*' index='0' name='urlRequest' type='@'/>
+<arg declared_type='void (^)(AVHTTPRequestOperation *, id)' function_pointer='true' index='1' name='success' type='@?'>
+<arg declared_type='AVHTTPRequestOperation*' type='@'/>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(AVHTTPRequestOperation *, NSError *)' function_pointer='true' index='2' name='failure' type='@?'>
+<arg declared_type='AVHTTPRequestOperation*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='AVHTTPRequestOperation*' type='@'/>
+</method>
+<method selector='baseURL'>
+<retval declared_type='NSURL*' type='@'/>
+</method>
+<method selector='cancelAllHTTPOperationsWithMethod:path:'>
+<arg declared_type='NSString*' index='0' name='method' type='@'/>
+<arg declared_type='NSString*' index='1' name='path' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='clearAuthorizationHeader'>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='clientWithBaseURL:'>
+<arg declared_type='NSURL*' index='0' name='url' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='defaultValueForHeader:'>
+<arg declared_type='NSString*' index='0' name='header' type='@'/>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='deletePath:parameters:success:failure:'>
+<arg declared_type='NSString*' index='0' name='path' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='parameters' type='@'/>
+<arg declared_type='void (^)(AVHTTPRequestOperation *, id)' function_pointer='true' index='2' name='success' type='@?'>
+<arg declared_type='AVHTTPRequestOperation*' type='@'/>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(AVHTTPRequestOperation *, NSError *)' function_pointer='true' index='3' name='failure' type='@?'>
+<arg declared_type='AVHTTPRequestOperation*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='enqueueBatchOfHTTPRequestOperations:progressBlock:completionBlock:'>
+<arg declared_type='NSArray*' index='0' name='operations' type='@'/>
+<arg declared_type='void (^)(NSUInteger, NSUInteger)' function_pointer='true' index='1' name='progressBlock' type='@?'>
+<arg declared_type='NSUInteger' type='I' type64='Q'/>
+<arg declared_type='NSUInteger' type='I' type64='Q'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSArray *)' function_pointer='true' index='2' name='completionBlock' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='enqueueBatchOfHTTPRequestOperationsWithRequests:progressBlock:completionBlock:'>
+<arg declared_type='NSArray*' index='0' name='urlRequests' type='@'/>
+<arg declared_type='void (^)(NSUInteger, NSUInteger)' function_pointer='true' index='1' name='progressBlock' type='@?'>
+<arg declared_type='NSUInteger' type='I' type64='Q'/>
+<arg declared_type='NSUInteger' type='I' type64='Q'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSArray *)' function_pointer='true' index='2' name='completionBlock' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='enqueueHTTPRequestOperation:'>
+<arg declared_type='AVHTTPRequestOperation*' index='0' name='operation' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getPath:parameters:success:failure:'>
+<arg declared_type='NSString*' index='0' name='path' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='parameters' type='@'/>
+<arg declared_type='void (^)(AVHTTPRequestOperation *, id)' function_pointer='true' index='2' name='success' type='@?'>
+<arg declared_type='AVHTTPRequestOperation*' type='@'/>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(AVHTTPRequestOperation *, NSError *)' function_pointer='true' index='3' name='failure' type='@?'>
+<arg declared_type='AVHTTPRequestOperation*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='initWithBaseURL:'>
+<arg declared_type='NSURL*' index='0' name='url' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='multipartFormRequestWithMethod:path:parameters:constructingBodyWithBlock:'>
+<arg declared_type='NSString*' index='0' name='method' type='@'/>
+<arg declared_type='NSString*' index='1' name='path' type='@'/>
+<arg declared_type='NSDictionary*' index='2' name='parameters' type='@'/>
+<arg declared_type='void (^)(id)' function_pointer='true' index='3' name='block' type='@?'>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='NSMutableURLRequest*' type='@'/>
+</method>
+<method selector='networkReachabilityStatus'>
+<retval declared_type='AVNetworkReachabilityStatus' type='i'/>
+</method>
+<method selector='operationQueue'>
+<retval declared_type='NSOperationQueue*' type='@'/>
+</method>
+<method selector='parameterEncoding'>
+<retval declared_type='AVHTTPClientParameterEncoding' type='i'/>
+</method>
+<method selector='patchPath:parameters:success:failure:'>
+<arg declared_type='NSString*' index='0' name='path' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='parameters' type='@'/>
+<arg declared_type='void (^)(AVHTTPRequestOperation *, id)' function_pointer='true' index='2' name='success' type='@?'>
+<arg declared_type='AVHTTPRequestOperation*' type='@'/>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(AVHTTPRequestOperation *, NSError *)' function_pointer='true' index='3' name='failure' type='@?'>
+<arg declared_type='AVHTTPRequestOperation*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='postPath:parameters:success:failure:'>
+<arg declared_type='NSString*' index='0' name='path' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='parameters' type='@'/>
+<arg declared_type='void (^)(AVHTTPRequestOperation *, id)' function_pointer='true' index='2' name='success' type='@?'>
+<arg declared_type='AVHTTPRequestOperation*' type='@'/>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(AVHTTPRequestOperation *, NSError *)' function_pointer='true' index='3' name='failure' type='@?'>
+<arg declared_type='AVHTTPRequestOperation*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='putPath:parameters:success:failure:'>
+<arg declared_type='NSString*' index='0' name='path' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='parameters' type='@'/>
+<arg declared_type='void (^)(AVHTTPRequestOperation *, id)' function_pointer='true' index='2' name='success' type='@?'>
+<arg declared_type='AVHTTPRequestOperation*' type='@'/>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(AVHTTPRequestOperation *, NSError *)' function_pointer='true' index='3' name='failure' type='@?'>
+<arg declared_type='AVHTTPRequestOperation*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='registerHTTPOperationClass:'>
+<arg declared_type='Class' index='0' name='operationClass' type='#'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='requestWithMethod:path:parameters:'>
+<arg declared_type='NSString*' index='0' name='method' type='@'/>
+<arg declared_type='NSString*' index='1' name='path' type='@'/>
+<arg declared_type='NSDictionary*' index='2' name='parameters' type='@'/>
+<retval declared_type='NSMutableURLRequest*' type='@'/>
+</method>
+<method selector='setAuthorizationHeaderWithToken:'>
+<arg declared_type='NSString*' index='0' name='token' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setAuthorizationHeaderWithUsername:password:'>
+<arg declared_type='NSString*' index='0' name='username' type='@'/>
+<arg declared_type='NSString*' index='1' name='password' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setDefaultHeader:value:'>
+<arg declared_type='NSString*' index='0' name='header' type='@'/>
+<arg declared_type='NSString*' index='1' name='value' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setParameterEncoding:'>
+<arg declared_type='AVHTTPClientParameterEncoding' index='0' name='parameterEncoding' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setReachabilityStatusChangeBlock:'>
+<arg declared_type='void (^)(AVNetworkReachabilityStatus)' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='AVNetworkReachabilityStatus' type='i'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setStringEncoding:'>
+<arg declared_type='NSStringEncoding' index='0' name='stringEncoding' type='I' type64='Q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='stringEncoding'>
+<retval declared_type='NSStringEncoding' type='I' type64='Q'/>
+</method>
+<method selector='unregisterHTTPOperationClass:'>
+<arg declared_type='Class' index='0' name='operationClass' type='#'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVHTTPRequestOperation'>
+<method class_method='true' selector='acceptableContentTypes'>
+<retval declared_type='NSSet*' type='@'/>
+</method>
+<method class_method='true' selector='acceptableStatusCodes'>
+<retval declared_type='NSIndexSet*' type='@'/>
+</method>
+<method class_method='true' selector='addAcceptableContentTypes:'>
+<arg declared_type='NSSet*' index='0' name='contentTypes' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='addAcceptableStatusCodes:'>
+<arg declared_type='NSIndexSet*' index='0' name='statusCodes' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='canProcessRequest:'>
+<arg declared_type='NSURLRequest*' index='0' name='urlRequest' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='failureCallbackQueue'>
+<retval declared_type='dispatch_queue_t' type='@'/>
+</method>
+<method selector='hasAcceptableContentType'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='hasAcceptableStatusCode'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='response'>
+<retval declared_type='NSHTTPURLResponse*' type='@'/>
+</method>
+<method selector='setCompletionBlockWithSuccess:failure:'>
+<arg declared_type='void (^)(AVHTTPRequestOperation *, id)' function_pointer='true' index='0' name='success' type='@?'>
+<arg declared_type='AVHTTPRequestOperation*' type='@'/>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(AVHTTPRequestOperation *, NSError *)' function_pointer='true' index='1' name='failure' type='@?'>
+<arg declared_type='AVHTTPRequestOperation*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setFailureCallbackQueue:'>
+<arg declared_type='dispatch_queue_t' index='0' name='failureCallbackQueue' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSuccessCallbackQueue:'>
+<arg declared_type='dispatch_queue_t' index='0' name='successCallbackQueue' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='successCallbackQueue'>
+<retval declared_type='dispatch_queue_t' type='@'/>
+</method>
+</class>
+<class name='AVImageRequestOperation'>
+<method class_method='true' selector='imageRequestOperationWithRequest:imageProcessingBlock:success:failure:'>
+<arg declared_type='NSURLRequest*' index='0' name='urlRequest' type='@'/>
+<arg declared_type='UIImage *(^)(UIImage *)' function_pointer='true' index='1' name='imageProcessingBlock' type='@?'>
+<arg declared_type='UIImage*' type='@'/>
+<retval declared_type='UIImage*' type='@'/>
+</arg>
+<arg declared_type='void (^)(NSURLRequest *, NSHTTPURLResponse *, UIImage *)' function_pointer='true' index='2' name='success' type='@?'>
+<arg declared_type='NSURLRequest*' type='@'/>
+<arg declared_type='NSHTTPURLResponse*' type='@'/>
+<arg declared_type='UIImage*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSURLRequest *, NSHTTPURLResponse *, NSError *)' function_pointer='true' index='3' name='failure' type='@?'>
+<arg declared_type='NSURLRequest*' type='@'/>
+<arg declared_type='NSHTTPURLResponse*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='imageRequestOperationWithRequest:success:'>
+<arg declared_type='NSURLRequest*' index='0' name='urlRequest' type='@'/>
+<arg declared_type='void (^)(UIImage *)' function_pointer='true' index='1' name='success' type='@?'>
+<arg declared_type='UIImage*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='imageScale'>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</method>
+<method selector='responseImage'>
+<retval declared_type='UIImage*' type='@'/>
+</method>
+<method selector='setImageScale:'>
+<arg declared_type='CGFloat' index='0' name='imageScale' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVInstallation'>
+<method selector='badge'>
+<retval declared_type='NSInteger' type='i' type64='q'/>
+</method>
+<method selector='channels'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method class_method='true' selector='currentInstallation'>
+<retval declared_type='AVInstallation*' type='@'/>
+</method>
+<method selector='deviceToken'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='deviceType'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='installationId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='query'>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method selector='setBadge:'>
+<arg declared_type='NSInteger' index='0' name='badge' type='i' type64='q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setChannels:'>
+<arg declared_type='NSArray*' index='0' name='channels' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setDeviceToken:'>
+<arg declared_type='NSString*' index='0' name='deviceToken' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setDeviceTokenFromData:'>
+<arg declared_type='NSData*' index='0' name='deviceTokenData' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='timeZone'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+</class>
+<class name='AVJSONRequestOperation'>
+<method selector='JSONReadingOptions'>
+<retval declared_type='NSJSONReadingOptions' type='I' type64='Q'/>
+</method>
+<method class_method='true' selector='JSONRequestOperationWithRequest:success:failure:'>
+<arg declared_type='NSURLRequest*' index='0' name='urlRequest' type='@'/>
+<arg declared_type='void (^)(NSURLRequest *, NSHTTPURLResponse *, id)' function_pointer='true' index='1' name='success' type='@?'>
+<arg declared_type='NSURLRequest*' type='@'/>
+<arg declared_type='NSHTTPURLResponse*' type='@'/>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSURLRequest *, NSHTTPURLResponse *, NSError *, id)' function_pointer='true' index='2' name='failure' type='@?'>
+<arg declared_type='NSURLRequest*' type='@'/>
+<arg declared_type='NSHTTPURLResponse*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='responseJSON'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='setJSONReadingOptions:'>
+<arg declared_type='NSJSONReadingOptions' index='0' name='JSONReadingOptions' type='I' type64='Q'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVLocationManager'>
+<method selector='lastLocation'>
+<retval declared_type='CLLocation*' type='@'/>
+</method>
+<method selector='locationManager'>
+<retval declared_type='CLLocationManager*' type='@'/>
+</method>
+<method selector='requestAlwaysAuthorization'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='requestWhenInUseAuthorization'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setLastLocation:'>
+<arg declared_type='CLLocation*' index='0' name='lastLocation' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setLocationManager:'>
+<arg declared_type='CLLocationManager*' index='0' name='locationManager' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sharedInstance'>
+<retval declared_type='AVLocationManager*' type='@'/>
+</method>
+<method selector='updateWithBlock:'>
+<arg declared_type='void (^)(AVGeoPoint *, NSError *)' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='AVGeoPoint*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVLogger'>
+<method class_method='true' selector='addLoggerDomain:'>
+<arg declared_type='NSString*' index='0' name='domain' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='logFunc:domain:level:message:' variadic='true'>
+<arg const='true' declared_type='char*' index='0' name='func' type='*'/>
+<arg declared_type='NSString*' index='1' name='domain' type='@'/>
+<arg declared_type='id' index='2' name='level' type='@'/>
+<arg declared_type='NSString*' index='3' name='fmt' printf_format='true' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='removeLoggerDomain:'>
+<arg declared_type='NSString*' index='0' name='domain' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setLoggerLevelMask:'>
+<arg declared_type='NSUInteger' index='0' name='levelMask' type='I' type64='Q'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVMessage'>
+<method selector='fromPeerId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='groupId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='messageForGroup:payload:'>
+<arg declared_type='AVGroup*' index='0' name='group' type='@'/>
+<arg declared_type='NSString*' index='1' name='payload' type='@'/>
+<retval declared_type='AVMessage*' type='@'/>
+</method>
+<method class_method='true' selector='messageForPeerWithSession:toPeerId:payload:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSString*' index='1' name='toPeerId' type='@'/>
+<arg declared_type='NSString*' index='2' name='payload' type='@'/>
+<retval declared_type='AVMessage*' type='@'/>
+</method>
+<method selector='offline'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='payload'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='setFromPeerId:'>
+<arg declared_type='NSString*' index='0' name='fromPeerId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setGroupId:'>
+<arg declared_type='NSString*' index='0' name='groupId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setOffline:'>
+<arg declared_type='BOOL' index='0' name='offline' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setPayload:'>
+<arg declared_type='NSString*' index='0' name='payload' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setTimestamp:'>
+<arg declared_type='int64_t' index='0' name='timestamp' type='q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setToPeerId:'>
+<arg declared_type='NSString*' index='0' name='toPeerId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setType:'>
+<arg declared_type='int' index='0' name='type' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='timestamp'>
+<retval declared_type='int64_t' type='q'/>
+</method>
+<method selector='toPeerId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='type'>
+<retval declared_type='int' type='i'/>
+</method>
+</class>
+<class name='AVNetworkActivityIndicatorManager'>
+<method selector='decrementActivityCount'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='incrementActivityCount'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='isEnabled'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='isNetworkActivityIndicatorVisible'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='setEnabled:'>
+<arg declared_type='BOOL' index='0' name='enabled' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sharedManager'>
+<retval declared_type='id' type='@'/>
+</method>
+</class>
+<class name='AVOSCloud'>
+<method class_method='true' selector='clearLastModifyCache'>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='fileCacheExpiredDays'>
+<retval declared_type='NSInteger' type='i' type64='q'/>
+</method>
+<method class_method='true' selector='getApplicationId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='getClientKey'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='getLastModifyEnabled'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='logLevel'>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='networkTimeoutInterval'>
+<retval declared_type='NSTimeInterval' type='d'/>
+</method>
+<method class_method='true' selector='queryCacheExpiredDays'>
+<retval declared_type='NSInteger' type='i' type64='q'/>
+</method>
+<method class_method='true' selector='requestSmsCodeWithPhoneNumber:appName:operation:timeToLive:callback:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='NSString*' index='1' name='appName' type='@'/>
+<arg declared_type='NSString*' index='2' name='operation' type='@'/>
+<arg declared_type='NSUInteger' index='3' name='ttl' type='I' type64='Q'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='4' name='callback' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='requestSmsCodeWithPhoneNumber:callback:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='callback' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setApplicationId:clientKey:'>
+<arg declared_type='NSString*' index='0' name='applicationId' type='@'/>
+<arg declared_type='NSString*' index='1' name='clientKey' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setFileCacheExpiredDays:'>
+<arg declared_type='NSInteger' index='0' name='days' type='i' type64='q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setLastModifyEnabled:'>
+<arg declared_type='BOOL' index='0' name='enabled' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setLogLevel:'>
+<arg declared_type='id' index='0' name='level' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setNetworkTimeoutInterval:'>
+<arg declared_type='NSTimeInterval' index='0' name='time' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setQueryCacheExpiredDays:'>
+<arg declared_type='NSInteger' index='0' name='days' type='i' type64='q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='setStorageType:'>
+<arg declared_type='AVStorageType' index='0' name='type' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='useAVCloud'>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='useAVCloudCN'>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='useAVCloudUS'>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='verifySmsCode:callback:'>
+<arg declared_type='NSString*' index='0' name='code' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='callback' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVObject'>
+<method selector='ACL'>
+<retval declared_type='AVACL*' type='@'/>
+</method>
+<method selector='addObject:forKey:'>
+<arg declared_type='id' index='0' name='object' type='@'/>
+<arg declared_type='NSString*' index='1' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='addObjectsFromArray:forKey:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<arg declared_type='NSString*' index='1' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='addUniqueObject:forKey:'>
+<arg declared_type='id' index='0' name='object' type='@'/>
+<arg declared_type='NSString*' index='1' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='addUniqueObjectsFromArray:forKey:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<arg declared_type='NSString*' index='1' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='allKeys'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='className'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='createdAt'>
+<retval declared_type='NSDate*' type='@'/>
+</method>
+<method selector='delete'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='delete:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='deleteAllInBackground:block:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='deleteEventually'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='deleteEventuallyWithBlock:'>
+<arg declared_type='AVIdResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='deleteInBackground'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='deleteInBackgroundWithBlock:'>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='deleteInBackgroundWithTarget:selector:'>
+<arg declared_type='id' index='0' name='target' type='@'/>
+<arg declared_type='SEL' index='1' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='dictionaryForObject'>
+<retval declared_type='NSMutableDictionary*' type='@'/>
+</method>
+<method selector='fetch'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='fetch:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='fetchAll:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='fetchAll:error:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<arg declared_type='NSError**' index='1' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='fetchAllIfNeeded:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='fetchAllIfNeeded:error:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<arg declared_type='NSError**' index='1' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='fetchAllIfNeededInBackground:block:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<arg declared_type='AVArrayResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='fetchAllIfNeededInBackground:target:selector:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<arg declared_type='id' index='1' name='target' type='@'/>
+<arg declared_type='SEL' index='2' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='fetchAllInBackground:block:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<arg declared_type='AVArrayResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='fetchAllInBackground:target:selector:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<arg declared_type='id' index='1' name='target' type='@'/>
+<arg declared_type='SEL' index='2' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='fetchIfNeeded'>
+<retval declared_type='AVObject*' type='@'/>
+</method>
+<method selector='fetchIfNeeded:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='AVObject*' type='@'/>
+</method>
+<method selector='fetchIfNeededInBackgroundWithBlock:'>
+<arg declared_type='AVObjectResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='AVObject*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='fetchIfNeededInBackgroundWithTarget:selector:'>
+<arg declared_type='id' index='0' name='target' type='@'/>
+<arg declared_type='SEL' index='1' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='fetchIfNeededWithKeys:'>
+<arg declared_type='NSArray*' index='0' name='keys' type='@'/>
+<retval declared_type='AVObject*' type='@'/>
+</method>
+<method selector='fetchIfNeededWithKeys:error:'>
+<arg declared_type='NSArray*' index='0' name='keys' type='@'/>
+<arg declared_type='NSError**' index='1' name='error' type='^@'/>
+<retval declared_type='AVObject*' type='@'/>
+</method>
+<method selector='fetchInBackgroundWithBlock:'>
+<arg declared_type='AVObjectResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='AVObject*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='fetchInBackgroundWithKeys:block:'>
+<arg declared_type='NSArray*' index='0' name='keys' type='@'/>
+<arg declared_type='AVObjectResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='AVObject*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='fetchInBackgroundWithTarget:selector:'>
+<arg declared_type='id' index='0' name='target' type='@'/>
+<arg declared_type='SEL' index='1' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='fetchWhenSave'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='fetchWithKeys:'>
+<arg declared_type='NSArray*' index='0' name='keys' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='fetchWithKeys:error:'>
+<arg declared_type='NSArray*' index='0' name='keys' type='@'/>
+<arg declared_type='NSError**' index='1' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='incrementKey:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='incrementKey:byAmount:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSNumber*' index='1' name='amount' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='initWithClassName:'>
+<arg declared_type='NSString*' index='0' name='newClassName' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='isDataAvailable'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='object'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='objectForKey:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='objectForKeyedSubscript:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='objectFromDictionary:'>
+<arg declared_type='NSDictionary*' index='0' name='dict' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='objectId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='objectWithClassName:'>
+<arg declared_type='NSString*' index='0' name='className' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='objectWithClassName:dictionary:'>
+<arg declared_type='NSString*' index='0' name='className' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='dictionary' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='objectWithoutDataWithClassName:objectId:'>
+<arg declared_type='NSString*' index='0' name='className' type='@'/>
+<arg declared_type='NSString*' index='1' name='objectId' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='objectWithoutDataWithObjectId:'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='query'>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method selector='refresh'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='refresh:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='refreshInBackgroundWithBlock:'>
+<arg declared_type='AVObjectResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='AVObject*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='refreshInBackgroundWithKeys:block:'>
+<arg declared_type='NSArray*' index='0' name='keys' type='@'/>
+<arg declared_type='AVObjectResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='AVObject*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='refreshInBackgroundWithTarget:selector:'>
+<arg declared_type='id' index='0' name='target' type='@'/>
+<arg declared_type='SEL' index='1' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='refreshWithKeys:'>
+<arg declared_type='NSArray*' index='0' name='keys' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='registerSubclass'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='relationforKey:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='AVRelation*' type='@'/>
+</method>
+<method selector='removeObject:forKey:'>
+<arg declared_type='id' index='0' name='object' type='@'/>
+<arg declared_type='NSString*' index='1' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='removeObjectForKey:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='removeObjectsInArray:forKey:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<arg declared_type='NSString*' index='1' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='save'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='save:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='saveAll:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='saveAll:error:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<arg declared_type='NSError**' index='1' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='saveAllInBackground:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='saveAllInBackground:block:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='saveAllInBackground:target:selector:'>
+<arg declared_type='NSArray*' index='0' name='objects' type='@'/>
+<arg declared_type='id' index='1' name='target' type='@'/>
+<arg declared_type='SEL' index='2' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='saveEventually'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='saveEventually:'>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='0' name='callback' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='saveInBackground'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='saveInBackgroundWithBlock:'>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='saveInBackgroundWithTarget:selector:'>
+<arg declared_type='id' index='0' name='target' type='@'/>
+<arg declared_type='SEL' index='1' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setACL:'>
+<arg declared_type='AVACL*' index='0' name='ACL' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setFetchWhenSave:'>
+<arg declared_type='BOOL' index='0' name='fetchWhenSave' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setObject:forKey:'>
+<arg declared_type='id' index='0' name='object' type='@'/>
+<arg declared_type='NSString*' index='1' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setObject:forKeyedSubscript:'>
+<arg declared_type='id' index='0' name='object' type='@'/>
+<arg declared_type='NSString*' index='1' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setObjectId:'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='updatedAt'>
+<retval declared_type='NSDate*' type='@'/>
+</method>
+</class>
+<class name='AVPropertyListRequestOperation'>
+<method selector='propertyListReadOptions'>
+<retval declared_type='NSPropertyListReadOptions' type='I' type64='Q'/>
+</method>
+<method class_method='true' selector='propertyListRequestOperationWithRequest:success:failure:'>
+<arg declared_type='NSURLRequest*' index='0' name='urlRequest' type='@'/>
+<arg declared_type='void (^)(NSURLRequest *, NSHTTPURLResponse *, id)' function_pointer='true' index='1' name='success' type='@?'>
+<arg declared_type='NSURLRequest*' type='@'/>
+<arg declared_type='NSHTTPURLResponse*' type='@'/>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSURLRequest *, NSHTTPURLResponse *, NSError *, id)' function_pointer='true' index='2' name='failure' type='@?'>
+<arg declared_type='NSURLRequest*' type='@'/>
+<arg declared_type='NSHTTPURLResponse*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<arg declared_type='id' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='responsePropertyList'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='setPropertyListReadOptions:'>
+<arg declared_type='NSPropertyListReadOptions' index='0' name='propertyListReadOptions' type='I' type64='Q'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVPush'>
+<method selector='clearExpiration'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='expireAfterTimeInterval:'>
+<arg declared_type='NSTimeInterval' index='0' name='timeInterval' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='expireAtDate:'>
+<arg declared_type='NSDate*' index='0' name='date' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='getSubscribedChannels:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='NSSet*' type='@'/>
+</method>
+<method class_method='true' selector='getSubscribedChannelsInBackgroundWithBlock:'>
+<arg declared_type='AVSetResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='NSSet*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='getSubscribedChannelsInBackgroundWithTarget:selector:'>
+<arg declared_type='id' index='0' name='target' type='@'/>
+<arg declared_type='SEL' index='1' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='handlePush:'>
+<arg declared_type='NSDictionary*' index='0' name='userInfo' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='push'>
+<retval declared_type='AVPush*' type='@'/>
+</method>
+<method selector='sendPush:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='sendPushDataToChannel:withData:error:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='data' type='@'/>
+<arg declared_type='NSError**' index='2' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='sendPushDataToChannelInBackground:withData:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='data' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sendPushDataToChannelInBackground:withData:block:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='data' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='2' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sendPushDataToChannelInBackground:withData:target:selector:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='data' type='@'/>
+<arg declared_type='id' index='2' name='target' type='@'/>
+<arg declared_type='SEL' index='3' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sendPushDataToQuery:withData:error:'>
+<arg declared_type='AVQuery*' index='0' name='query' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='data' type='@'/>
+<arg declared_type='NSError**' index='2' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='sendPushDataToQueryInBackground:withData:'>
+<arg declared_type='AVQuery*' index='0' name='query' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='data' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sendPushDataToQueryInBackground:withData:block:'>
+<arg declared_type='AVQuery*' index='0' name='query' type='@'/>
+<arg declared_type='NSDictionary*' index='1' name='data' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='2' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sendPushInBackground'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sendPushInBackgroundWithBlock:'>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sendPushInBackgroundWithTarget:selector:'>
+<arg declared_type='id' index='0' name='target' type='@'/>
+<arg declared_type='SEL' index='1' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sendPushMessageToChannel:withMessage:error:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<arg declared_type='NSString*' index='1' name='message' type='@'/>
+<arg declared_type='NSError**' index='2' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='sendPushMessageToChannelInBackground:withMessage:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<arg declared_type='NSString*' index='1' name='message' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sendPushMessageToChannelInBackground:withMessage:block:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<arg declared_type='NSString*' index='1' name='message' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='2' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sendPushMessageToChannelInBackground:withMessage:target:selector:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<arg declared_type='NSString*' index='1' name='message' type='@'/>
+<arg declared_type='id' index='2' name='target' type='@'/>
+<arg declared_type='SEL' index='3' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sendPushMessageToQuery:withMessage:error:'>
+<arg declared_type='AVQuery*' index='0' name='query' type='@'/>
+<arg declared_type='NSString*' index='1' name='message' type='@'/>
+<arg declared_type='NSError**' index='2' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='sendPushMessageToQueryInBackground:withMessage:'>
+<arg declared_type='AVQuery*' index='0' name='query' type='@'/>
+<arg declared_type='NSString*' index='1' name='message' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sendPushMessageToQueryInBackground:withMessage:block:'>
+<arg declared_type='AVQuery*' index='0' name='query' type='@'/>
+<arg declared_type='NSString*' index='1' name='message' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='2' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setChannel:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setChannels:'>
+<arg declared_type='NSArray*' index='0' name='channels' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setData:'>
+<arg declared_type='NSDictionary*' index='0' name='data' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setMessage:'>
+<arg declared_type='NSString*' index='0' name='message' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setPushDate:'>
+<arg declared_type='NSDate*' index='0' name='dateToPush' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setPushToAndroid:'>
+<arg declared_type='BOOL' index='0' name='pushToAndroid' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setPushToIOS:'>
+<arg declared_type='BOOL' index='0' name='pushToIOS' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setQuery:'>
+<arg declared_type='AVQuery*' index='0' name='query' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='storeDeviceToken:'>
+<arg declared_type='id' index='0' name='deviceToken' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='subscribeToChannel:error:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<arg declared_type='NSError**' index='1' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='subscribeToChannelInBackground:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='subscribeToChannelInBackground:block:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='subscribeToChannelInBackground:target:selector:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<arg declared_type='id' index='1' name='target' type='@'/>
+<arg declared_type='SEL' index='2' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='unsubscribeFromChannel:error:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<arg declared_type='NSError**' index='1' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='unsubscribeFromChannelInBackground:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='unsubscribeFromChannelInBackground:block:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='unsubscribeFromChannelInBackground:target:selector:'>
+<arg declared_type='NSString*' index='0' name='channel' type='@'/>
+<arg declared_type='id' index='1' name='target' type='@'/>
+<arg declared_type='SEL' index='2' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVQuery'>
+<method selector='addAscendingOrder:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='addDescendingOrder:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='andQueryWithSubqueries:'>
+<arg declared_type='NSArray*' index='0' name='queries' type='@'/>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method selector='cachePolicy'>
+<retval declared_type='AVCachePolicy' type='i'/>
+</method>
+<method selector='cancel'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='className'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='clearAllCachedResults'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='clearCachedResult'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='countObjects'>
+<retval declared_type='NSInteger' type='i' type64='q'/>
+</method>
+<method selector='countObjects:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='NSInteger' type='i' type64='q'/>
+</method>
+<method selector='countObjectsInBackgroundWithBlock:'>
+<arg declared_type='AVIntegerResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='NSInteger' type='i' type64='q'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='countObjectsInBackgroundWithTarget:selector:'>
+<arg declared_type='id' index='0' name='target' type='@'/>
+<arg declared_type='SEL' index='1' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='deleteAllInBackgroundWithBlock:'>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='doCloudQueryInBackgroundWithCQL:callback:'>
+<arg declared_type='NSString*' index='0' name='cql' type='@'/>
+<arg declared_type='AVCloudQueryCallback' function_pointer='true' index='1' name='callback' type='@?'>
+<arg declared_type='AVCloudQueryResult*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='doCloudQueryWithCQL:'>
+<arg declared_type='NSString*' index='0' name='cql' type='@'/>
+<retval declared_type='AVCloudQueryResult*' type='@'/>
+</method>
+<method class_method='true' selector='doCloudQueryWithCQL:error:'>
+<arg declared_type='NSString*' index='0' name='cql' type='@'/>
+<arg declared_type='NSError**' index='1' name='error' type='^@'/>
+<retval declared_type='AVCloudQueryResult*' type='@'/>
+</method>
+<method selector='findObjects'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='findObjects:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='findObjectsInBackgroundWithBlock:'>
+<arg declared_type='AVArrayResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='findObjectsInBackgroundWithTarget:selector:'>
+<arg declared_type='id' index='0' name='target' type='@'/>
+<arg declared_type='SEL' index='1' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getFirstObject'>
+<retval declared_type='AVObject*' type='@'/>
+</method>
+<method selector='getFirstObject:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='AVObject*' type='@'/>
+</method>
+<method selector='getFirstObjectInBackgroundWithBlock:'>
+<arg declared_type='AVObjectResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='AVObject*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getFirstObjectInBackgroundWithTarget:selector:'>
+<arg declared_type='id' index='0' name='target' type='@'/>
+<arg declared_type='SEL' index='1' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getObjectInBackgroundWithId:block:'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<arg declared_type='AVObjectResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='AVObject*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getObjectInBackgroundWithId:target:selector:'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<arg declared_type='id' index='1' name='target' type='@'/>
+<arg declared_type='SEL' index='2' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='getObjectOfClass:objectId:'>
+<arg declared_type='NSString*' index='0' name='objectClass' type='@'/>
+<arg declared_type='NSString*' index='1' name='objectId' type='@'/>
+<retval declared_type='AVObject*' type='@'/>
+</method>
+<method class_method='true' selector='getObjectOfClass:objectId:error:'>
+<arg declared_type='NSString*' index='0' name='objectClass' type='@'/>
+<arg declared_type='NSString*' index='1' name='objectId' type='@'/>
+<arg declared_type='NSError**' index='2' name='error' type='^@'/>
+<retval declared_type='AVObject*' type='@'/>
+</method>
+<method selector='getObjectWithId:'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<retval declared_type='AVObject*' type='@'/>
+</method>
+<method selector='getObjectWithId:error:'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<arg declared_type='NSError**' index='1' name='error' type='^@'/>
+<retval declared_type='AVObject*' type='@'/>
+</method>
+<method class_method='true' selector='getUserObjectWithId:'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<retval declared_type='AVUser*' type='@'/>
+</method>
+<method class_method='true' selector='getUserObjectWithId:error:'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<arg declared_type='NSError**' index='1' name='error' type='^@'/>
+<retval declared_type='AVUser*' type='@'/>
+</method>
+<method selector='hasCachedResult'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='includeKey:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='initWithClassName:'>
+<arg declared_type='NSString*' index='0' name='newClassName' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='limit'>
+<retval declared_type='NSInteger' type='i' type64='q'/>
+</method>
+<method selector='maxCacheAge'>
+<retval declared_type='NSTimeInterval' type='d'/>
+</method>
+<method class_method='true' selector='orQueryWithSubqueries:'>
+<arg declared_type='NSArray*' index='0' name='queries' type='@'/>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method selector='orderByAscending:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='orderByDescending:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='orderBySortDescriptor:'>
+<arg declared_type='NSSortDescriptor*' index='0' name='sortDescriptor' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='orderBySortDescriptors:'>
+<arg declared_type='NSArray*' index='0' name='sortDescriptors' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='queryForUser'>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method class_method='true' selector='queryWithClassName:'>
+<arg declared_type='NSString*' index='0' name='className' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='queryWithClassName:predicate:'>
+<arg declared_type='NSString*' index='0' name='className' type='@'/>
+<arg declared_type='NSPredicate*' index='1' name='predicate' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='selectKeys:'>
+<arg declared_type='NSArray*' index='0' name='keys' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setCachePolicy:'>
+<arg declared_type='AVCachePolicy' index='0' name='cachePolicy' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setClassName:'>
+<arg declared_type='NSString*' index='0' name='className' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setLimit:'>
+<arg declared_type='NSInteger' index='0' name='limit' type='i' type64='q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setMaxCacheAge:'>
+<arg declared_type='NSTimeInterval' index='0' name='maxCacheAge' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSkip:'>
+<arg declared_type='NSInteger' index='0' name='skip' type='i' type64='q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setTrace:'>
+<arg declared_type='BOOL' index='0' name='trace' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='skip'>
+<retval declared_type='NSInteger' type='i' type64='q'/>
+</method>
+<method selector='trace'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='whereKey:containedIn:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSArray*' index='1' name='array' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:containsAllObjectsInArray:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSArray*' index='1' name='array' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:containsString:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSString*' index='1' name='substring' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:doesNotMatchKey:inQuery:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSString*' index='1' name='otherKey' type='@'/>
+<arg declared_type='AVQuery*' index='2' name='query' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:doesNotMatchQuery:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='AVQuery*' index='1' name='query' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:equalTo:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='id' index='1' name='object' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:greaterThan:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='id' index='1' name='object' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:greaterThanOrEqualTo:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='id' index='1' name='object' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:hasPrefix:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSString*' index='1' name='prefix' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:hasSuffix:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSString*' index='1' name='suffix' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:lessThan:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='id' index='1' name='object' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:lessThanOrEqualTo:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='id' index='1' name='object' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:matchesKey:inQuery:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSString*' index='1' name='otherKey' type='@'/>
+<arg declared_type='AVQuery*' index='2' name='query' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:matchesQuery:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='AVQuery*' index='1' name='query' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:matchesRegex:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSString*' index='1' name='regex' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:matchesRegex:modifiers:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSString*' index='1' name='regex' type='@'/>
+<arg declared_type='NSString*' index='2' name='modifiers' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:nearGeoPoint:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='AVGeoPoint*' index='1' name='geopoint' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:nearGeoPoint:withinKilometers:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='AVGeoPoint*' index='1' name='geopoint' type='@'/>
+<arg declared_type='double' index='2' name='maxDistance' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:nearGeoPoint:withinMiles:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='AVGeoPoint*' index='1' name='geopoint' type='@'/>
+<arg declared_type='double' index='2' name='maxDistance' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:nearGeoPoint:withinRadians:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='AVGeoPoint*' index='1' name='geopoint' type='@'/>
+<arg declared_type='double' index='2' name='maxDistance' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:notContainedIn:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSArray*' index='1' name='array' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:notEqualTo:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='id' index='1' name='object' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:sizeEqualTo:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSUInteger' index='1' name='count' type='I' type64='Q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKey:withinGeoBoxFromSouthwest:toNortheast:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='AVGeoPoint*' index='1' name='southwest' type='@'/>
+<arg declared_type='AVGeoPoint*' index='2' name='northeast' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKeyDoesNotExist:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereKeyExists:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVRelation'>
+<method selector='addObject:'>
+<arg declared_type='AVObject*' index='0' name='object' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='query'>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method selector='removeObject:'>
+<arg declared_type='AVObject*' index='0' name='object' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='reverseQuery:relationKey:childObject:'>
+<arg declared_type='NSString*' index='0' name='parentClassName' type='@'/>
+<arg declared_type='NSString*' index='1' name='relationKey' type='@'/>
+<arg declared_type='AVObject*' index='2' name='child' type='@'/>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method selector='setTargetClass:'>
+<arg declared_type='NSString*' index='0' name='targetClass' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='targetClass'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+</class>
+<class name='AVRole'>
+<method selector='initWithName:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='initWithName:acl:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<arg declared_type='AVACL*' index='1' name='acl' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='name'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='query'>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method class_method='true' selector='roleWithName:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<retval declared_type='AVRole*' type='@'/>
+</method>
+<method class_method='true' selector='roleWithName:acl:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<arg declared_type='AVACL*' index='1' name='acl' type='@'/>
+<retval declared_type='AVRole*' type='@'/>
+</method>
+<method selector='roles'>
+<retval declared_type='AVRelation*' type='@'/>
+</method>
+<method selector='setName:'>
+<arg declared_type='NSString*' index='0' name='name' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='users'>
+<retval declared_type='AVRelation*' type='@'/>
+</method>
+</class>
+<class name='AVSearchQuery'>
+<method selector='addAscendingOrder:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='addDescendingOrder:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='cachePolicy'>
+<retval declared_type='AVCachePolicy' type='i'/>
+</method>
+<method selector='className'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='fields'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='findInBackground:'>
+<arg declared_type='AVArrayResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='findObjects'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='findObjects:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='highlights'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='hits'>
+<retval declared_type='NSInteger' type='i' type64='q'/>
+</method>
+<method selector='limit'>
+<retval declared_type='NSInteger' type='i' type64='q'/>
+</method>
+<method selector='maxCacheAge'>
+<retval declared_type='NSTimeInterval' type='d'/>
+</method>
+<method selector='orderByAscending:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='orderByDescending:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='orderBySortDescriptor:'>
+<arg declared_type='NSSortDescriptor*' index='0' name='sortDescriptor' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='orderBySortDescriptors:'>
+<arg declared_type='NSArray*' index='0' name='sortDescriptors' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='queryString'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='searchWithQueryString:'>
+<arg declared_type='NSString*' index='0' name='queryString' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='setCachePolicy:'>
+<arg declared_type='AVCachePolicy' index='0' name='cachePolicy' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setClassName:'>
+<arg declared_type='NSString*' index='0' name='className' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setFields:'>
+<arg declared_type='NSArray*' index='0' name='fields' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setHighlights:'>
+<arg declared_type='NSString*' index='0' name='highlights' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setLimit:'>
+<arg declared_type='NSInteger' index='0' name='limit' type='i' type64='q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setMaxCacheAge:'>
+<arg declared_type='NSTimeInterval' index='0' name='maxCacheAge' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setQueryString:'>
+<arg declared_type='NSString*' index='0' name='queryString' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSid:'>
+<arg declared_type='NSString*' index='0' name='sid' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSortBuilder:'>
+<arg declared_type='AVSearchSortBuilder*' index='0' name='sortBuilder' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sid'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='sortBuilder'>
+<retval declared_type='AVSearchSortBuilder*' type='@'/>
+</method>
+</class>
+<class name='AVSearchSortBuilder'>
+<method class_method='true' selector='newBuilder'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='orderByAscending:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='orderByAscending:withMode:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSString*' index='1' name='mode' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='orderByAscending:withMode:andMissing:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSString*' index='1' name='mode' type='@'/>
+<arg declared_type='NSString*' index='2' name='missing' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='orderByDescending:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='orderByDescending:withMode:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSString*' index='1' name='mode' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='orderByDescending:withMode:andMissing:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='NSString*' index='1' name='mode' type='@'/>
+<arg declared_type='NSString*' index='2' name='missing' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sortFields'>
+<retval declared_type='NSMutableArray*' type='@'/>
+</method>
+<method selector='whereNear:point:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='AVGeoPoint*' index='1' name='point' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereNear:point:inOrder:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='AVGeoPoint*' index='1' name='point' type='@'/>
+<arg declared_type='NSString*' index='2' name='order' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='whereNear:point:inOrder:withMode:andUnit:'>
+<arg declared_type='NSString*' index='0' name='key' type='@'/>
+<arg declared_type='AVGeoPoint*' index='1' name='point' type='@'/>
+<arg declared_type='NSString*' index='2' name='order' type='@'/>
+<arg declared_type='NSString*' index='3' name='mode' type='@'/>
+<arg declared_type='NSString*' index='4' name='unit' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVSession'>
+<method selector='close'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getAllPeers'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='getGroup:'>
+<arg declared_type='NSString*' index='0' name='groupId' type='@'/>
+<retval declared_type='AVGroup*' type='@'/>
+</method>
+<method selector='getOnlinePeers'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='getOnlinePeers:withBlock:'>
+<arg declared_type='NSArray*' index='0' name='peerIds' type='@'/>
+<arg declared_type='AVArrayResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getSelfPeerId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='getSessionWithPeerId:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<retval declared_type='AVSession*' type='@'/>
+</method>
+<method class_method='true' selector='getSessionWithPeerId:createAndOpenWhenNotExists:sessionDelegate:signatureDelegate:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<arg declared_type='BOOL' index='1' name='createAndOpen' type='B'/>
+<arg declared_type='id' index='2' name='sessionDelegate' type='@'/>
+<arg declared_type='id' index='3' name='signatureDelegate' type='@'/>
+<retval declared_type='AVSession*' type='@'/>
+</method>
+<method selector='isOnline:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='isOpen'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='isPaused'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='isWatching:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='messageTimeout'>
+<retval declared_type='int' type='i'/>
+</method>
+<method selector='onlinePeerIds'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='open:withPeerIds:'>
+<arg declared_type='NSString*' index='0' name='selfId' type='@'/>
+<arg declared_type='NSArray*' index='1' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='openWithPeerId:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='openWithPeerId:watchedPeerIds:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<arg declared_type='NSArray*' index='1' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='peerId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='peerIdIsOnline:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='peerIdIsWatching:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='queryOnlinePeerIdsInPeerIds:callback:'>
+<arg declared_type='NSArray*' index='0' name='peerIds' type='@'/>
+<arg declared_type='AVArrayResultBlock' function_pointer='true' index='1' name='callback' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sendMessage:'>
+<arg declared_type='AVMessage*' index='0' name='message' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sendMessage:isTransient:toPeerIds:'>
+<arg declared_type='NSString*' index='0' name='message' type='@'/>
+<arg declared_type='BOOL' index='1' name='transient' type='B'/>
+<arg declared_type='NSArray*' index='2' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sendMessage:transient:'>
+<arg declared_type='AVMessage*' index='0' name='message' type='@'/>
+<arg declared_type='BOOL' index='1' name='transient' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sessionDelegate'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='setMessageTimeout:'>
+<arg declared_type='int' index='0' name='messageTimeout' type='i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setPeerId:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSessionDelegate:'>
+<arg declared_type='id' index='0' name='sessionDelegate' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSignatureDelegate:'>
+<arg declared_type='id' index='0' name='signatureDelegate' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='signatureDelegate'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='unwatchPeerIds:'>
+<arg declared_type='NSArray*' index='0' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='unwatchPeers:'>
+<arg declared_type='NSArray*' index='0' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='watchPeerIds:'>
+<arg declared_type='NSArray*' index='0' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='watchPeers:'>
+<arg declared_type='NSArray*' index='0' name='peerIds' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='watchedPeerIds'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+</class>
+<class name='AVSignature'>
+<method selector='action'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='nonce'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='setAction:'>
+<arg declared_type='NSString*' index='0' name='action' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setNonce:'>
+<arg declared_type='NSString*' index='0' name='nonce' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSignature:'>
+<arg declared_type='NSString*' index='0' name='signature' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSignedPeerIds:'>
+<arg declared_type='NSArray*' index='0' name='signedPeerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setTimestamp:'>
+<arg declared_type='int64_t' index='0' name='timestamp' type='q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='signature'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='signedPeerIds'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='timestamp'>
+<retval declared_type='int64_t' type='q'/>
+</method>
+</class>
+<class name='AVStatus'>
+<method selector='createdAt'>
+<retval declared_type='NSDate*' type='@'/>
+</method>
+<method selector='data'>
+<retval declared_type='NSDictionary*' type='@'/>
+</method>
+<method class_method='true' selector='deleteStatusWithID:andCallback:'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='callback' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='getStatusWithID:andCallback:'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<arg declared_type='AVStatusResultBlock' function_pointer='true' index='1' name='callback' type='@?'>
+<arg declared_type='AVStatus*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='getStatusesFromCurrentUserWithType:skip:limit:andCallback:'>
+<arg declared_type='NSString*' index='0' name='type' type='^{NSString=#}'/>
+<arg declared_type='NSUInteger' index='1' name='skip' type='I' type64='Q'/>
+<arg declared_type='NSUInteger' index='2' name='limit' type='I' type64='Q'/>
+<arg declared_type='AVArrayResultBlock' function_pointer='true' index='3' name='callback' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='getStatusesFromUser:skip:limit:andCallback:'>
+<arg declared_type='NSString*' index='0' name='userId' type='@'/>
+<arg declared_type='NSUInteger' index='1' name='skip' type='I' type64='Q'/>
+<arg declared_type='NSUInteger' index='2' name='limit' type='I' type64='Q'/>
+<arg declared_type='AVArrayResultBlock' function_pointer='true' index='3' name='callback' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='getStatusesWithType:skip:limit:andCallback:'>
+<arg declared_type='NSString*' index='0' name='type' type='^{NSString=#}'/>
+<arg declared_type='NSUInteger' index='1' name='skip' type='I' type64='Q'/>
+<arg declared_type='NSUInteger' index='2' name='limit' type='I' type64='Q'/>
+<arg declared_type='AVArrayResultBlock' function_pointer='true' index='3' name='callback' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='getUnreadStatusesCountWithType:andCallback:'>
+<arg declared_type='NSString*' index='0' name='type' type='^{NSString=#}'/>
+<arg declared_type='AVIntegerResultBlock' function_pointer='true' index='1' name='callback' type='@?'>
+<arg declared_type='NSInteger' type='i' type64='q'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='inboxQuery:'>
+<arg declared_type='NSString*' index='0' name='inboxType' type='^{NSString=#}'/>
+<retval declared_type='AVStatusQuery*' type='@'/>
+</method>
+<method selector='messageId'>
+<retval declared_type='NSUInteger' type='I' type64='Q'/>
+</method>
+<method selector='objectId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='sendInBackgroundWithBlock:'>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sendPrivateStatus:toUserWithID:andCallback:'>
+<arg declared_type='AVStatus*' index='0' name='status' type='@'/>
+<arg declared_type='NSString*' index='1' name='userId' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='2' name='callback' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sendStatusToFollowers:andCallback:'>
+<arg declared_type='AVStatus*' index='0' name='status' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='callback' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setData:'>
+<arg declared_type='NSDictionary*' index='0' name='data' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setQuery:'>
+<arg declared_type='AVQuery*' index='0' name='query' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSource:'>
+<arg declared_type='AVObject*' index='0' name='source' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setType:'>
+<arg declared_type='NSString*' index='0' name='type' type='^{NSString=#}'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='source'>
+<retval declared_type='AVObject*' type='@'/>
+</method>
+<method class_method='true' selector='statusQuery'>
+<retval declared_type='AVStatusQuery*' type='@'/>
+</method>
+<method selector='type'>
+<retval declared_type='NSString*' type='^{NSString=#}'/>
+</method>
+</class>
+<class name='AVStatusQuery'>
+<method selector='inboxType'>
+<retval declared_type='NSString*' type='^{NSString=#}'/>
+</method>
+<method selector='maxId'>
+<retval declared_type='NSUInteger' type='I' type64='Q'/>
+</method>
+<method selector='owner'>
+<retval declared_type='AVObject*' type='@'/>
+</method>
+<method selector='setInboxType:'>
+<arg declared_type='NSString*' index='0' name='inboxType' type='^{NSString=#}'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setMaxId:'>
+<arg declared_type='NSUInteger' index='0' name='maxId' type='I' type64='Q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setOwner:'>
+<arg declared_type='AVObject*' index='0' name='owner' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSinceId:'>
+<arg declared_type='NSUInteger' index='0' name='sinceId' type='I' type64='Q'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sinceId'>
+<retval declared_type='NSUInteger' type='I' type64='Q'/>
+</method>
+</class>
+<class name='AVURLConnectionOperation'>
+<method selector='error'>
+<retval declared_type='NSError*' type='@'/>
+</method>
+<method selector='initWithRequest:'>
+<arg declared_type='NSURLRequest*' index='0' name='urlRequest' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='inputStream'>
+<retval declared_type='NSInputStream*' type='@'/>
+</method>
+<method selector='isPaused'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='outputStream'>
+<retval declared_type='NSOutputStream*' type='@'/>
+</method>
+<method selector='pause'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='request'>
+<retval declared_type='NSURLRequest*' type='@'/>
+</method>
+<method selector='response'>
+<retval declared_type='NSURLResponse*' type='@'/>
+</method>
+<method selector='responseData'>
+<retval declared_type='NSData*' type='@'/>
+</method>
+<method selector='responseString'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='responseStringEncoding'>
+<retval declared_type='NSStringEncoding' type='I' type64='Q'/>
+</method>
+<method selector='resume'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='runLoopModes'>
+<retval declared_type='NSSet*' type='@'/>
+</method>
+<method selector='setAuthenticationAgainstProtectionSpaceBlock:'>
+<arg declared_type='BOOL (^)(NSURLConnection *, NSURLProtectionSpace *)' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='NSURLConnection*' type='@'/>
+<arg declared_type='NSURLProtectionSpace*' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setAuthenticationChallengeBlock:'>
+<arg declared_type='void (^)(NSURLConnection *, NSURLAuthenticationChallenge *)' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='NSURLConnection*' type='@'/>
+<arg declared_type='NSURLAuthenticationChallenge*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setCacheResponseBlock:'>
+<arg declared_type='NSCachedURLResponse *(^)(NSURLConnection *, NSCachedURLResponse *)' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='NSURLConnection*' type='@'/>
+<arg declared_type='NSCachedURLResponse*' type='@'/>
+<retval declared_type='NSCachedURLResponse*' type='@'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setDownloadProgressBlock:'>
+<arg declared_type='void (^)(NSUInteger, long long, long long)' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='NSUInteger' type='I' type64='Q'/>
+<arg declared_type='long long' type='q'/>
+<arg declared_type='long long' type='q'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setInputStream:'>
+<arg declared_type='NSInputStream*' index='0' name='inputStream' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setOutputStream:'>
+<arg declared_type='NSOutputStream*' index='0' name='outputStream' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setRedirectResponseBlock:'>
+<arg declared_type='NSURLRequest *(^)(NSURLConnection *, NSURLRequest *, NSURLResponse *)' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='NSURLConnection*' type='@'/>
+<arg declared_type='NSURLRequest*' type='@'/>
+<arg declared_type='NSURLResponse*' type='@'/>
+<retval declared_type='NSURLRequest*' type='@'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setRunLoopModes:'>
+<arg declared_type='NSSet*' index='0' name='runLoopModes' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setShouldExecuteAsBackgroundTaskWithExpirationHandler:'>
+<arg declared_type='void (^)(void)' function_pointer='true' index='0' name='handler' type='@?'>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setUploadProgressBlock:'>
+<arg declared_type='void (^)(NSUInteger, long long, long long)' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='NSUInteger' type='I' type64='Q'/>
+<arg declared_type='long long' type='q'/>
+<arg declared_type='long long' type='q'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setUserInfo:'>
+<arg declared_type='NSDictionary*' index='0' name='userInfo' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='userInfo'>
+<retval declared_type='NSDictionary*' type='@'/>
+</method>
+</class>
+<class name='AVUser'>
+<method class_method='true' selector='currentUser'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='email'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='enableAutomaticUser'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='follow:andCallback:'>
+<arg declared_type='NSString*' index='0' name='userId' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='callback' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='followeeQuery'>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method class_method='true' selector='followeeQuery:'>
+<arg declared_type='NSString*' index='0' name='userObjectId' type='@'/>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method selector='followerQuery'>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method class_method='true' selector='followerQuery:'>
+<arg declared_type='NSString*' index='0' name='userObjectId' type='@'/>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method selector='getFollowees:'>
+<arg declared_type='AVArrayResultBlock' function_pointer='true' index='0' name='callback' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getFollowers:'>
+<arg declared_type='AVArrayResultBlock' function_pointer='true' index='0' name='callback' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='getFollowersAndFollowees:'>
+<arg declared_type='AVDictionaryResultBlock' function_pointer='true' index='0' name='callback' type='@?'>
+<arg declared_type='NSDictionary*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='isAuthenticated'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='isNew'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='logInWithMobilePhoneNumber:password:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='NSString*' index='1' name='password' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='logInWithMobilePhoneNumber:password:error:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='NSString*' index='1' name='password' type='@'/>
+<arg declared_type='NSError**' index='2' name='error' type='^@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='logInWithMobilePhoneNumber:smsCode:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='NSString*' index='1' name='code' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='logInWithMobilePhoneNumber:smsCode:error:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='NSString*' index='1' name='code' type='@'/>
+<arg declared_type='NSError**' index='2' name='error' type='^@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='logInWithMobilePhoneNumberInBackground:password:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='NSString*' index='1' name='password' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='logInWithMobilePhoneNumberInBackground:password:block:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='NSString*' index='1' name='password' type='@'/>
+<arg declared_type='AVUserResultBlock' function_pointer='true' index='2' name='block' type='@?'>
+<arg declared_type='AVUser*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='logInWithMobilePhoneNumberInBackground:password:target:selector:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='NSString*' index='1' name='password' type='@'/>
+<arg declared_type='id' index='2' name='target' type='@'/>
+<arg declared_type='SEL' index='3' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='logInWithMobilePhoneNumberInBackground:smsCode:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='NSString*' index='1' name='code' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='logInWithMobilePhoneNumberInBackground:smsCode:block:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='NSString*' index='1' name='code' type='@'/>
+<arg declared_type='AVUserResultBlock' function_pointer='true' index='2' name='block' type='@?'>
+<arg declared_type='AVUser*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='logInWithMobilePhoneNumberInBackground:smsCode:target:selector:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='NSString*' index='1' name='code' type='@'/>
+<arg declared_type='id' index='2' name='target' type='@'/>
+<arg declared_type='SEL' index='3' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='logInWithUsername:password:'>
+<arg declared_type='NSString*' index='0' name='username' type='@'/>
+<arg declared_type='NSString*' index='1' name='password' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='logInWithUsername:password:error:'>
+<arg declared_type='NSString*' index='0' name='username' type='@'/>
+<arg declared_type='NSString*' index='1' name='password' type='@'/>
+<arg declared_type='NSError**' index='2' name='error' type='^@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='logInWithUsernameInBackground:password:'>
+<arg declared_type='NSString*' index='0' name='username' type='@'/>
+<arg declared_type='NSString*' index='1' name='password' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='logInWithUsernameInBackground:password:block:'>
+<arg declared_type='NSString*' index='0' name='username' type='@'/>
+<arg declared_type='NSString*' index='1' name='password' type='@'/>
+<arg declared_type='AVUserResultBlock' function_pointer='true' index='2' name='block' type='@?'>
+<arg declared_type='AVUser*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='logInWithUsernameInBackground:password:target:selector:'>
+<arg declared_type='NSString*' index='0' name='username' type='@'/>
+<arg declared_type='NSString*' index='1' name='password' type='@'/>
+<arg declared_type='id' index='2' name='target' type='@'/>
+<arg declared_type='SEL' index='3' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='logOut'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='mobilePhoneNumber'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='mobilePhoneVerified'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='password'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='query'>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method class_method='true' selector='requestEmailVerify:withBlock:'>
+<arg declared_type='NSString*' index='0' name='email' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='requestLoginSmsCode:withBlock:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='requestMobilePhoneVerify:withBlock:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='requestPasswordResetForEmail:'>
+<arg declared_type='NSString*' index='0' name='email' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='requestPasswordResetForEmail:error:'>
+<arg declared_type='NSString*' index='0' name='email' type='@'/>
+<arg declared_type='NSError**' index='1' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='requestPasswordResetForEmailInBackground:'>
+<arg declared_type='NSString*' index='0' name='email' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='requestPasswordResetForEmailInBackground:block:'>
+<arg declared_type='NSString*' index='0' name='email' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='requestPasswordResetForEmailInBackground:target:selector:'>
+<arg declared_type='NSString*' index='0' name='email' type='@'/>
+<arg declared_type='id' index='1' name='target' type='@'/>
+<arg declared_type='SEL' index='2' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='requestPasswordResetWithPhoneNumber:block:'>
+<arg declared_type='NSString*' index='0' name='phoneNumber' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='resetPasswordWithSmsCode:newPassword:block:'>
+<arg declared_type='NSString*' index='0' name='code' type='@'/>
+<arg declared_type='NSString*' index='1' name='password' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='2' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sessionToken'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='setEmail:'>
+<arg declared_type='NSString*' index='0' name='email' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setMobilePhoneNumber:'>
+<arg declared_type='NSString*' index='0' name='mobilePhoneNumber' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setPassword:'>
+<arg declared_type='NSString*' index='0' name='password' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSessionToken:'>
+<arg declared_type='NSString*' index='0' name='sessionToken' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setUsername:'>
+<arg declared_type='NSString*' index='0' name='username' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='signUp'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='signUp:'>
+<arg declared_type='NSError**' index='0' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='signUpInBackground'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='signUpInBackgroundWithBlock:'>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='0' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='signUpInBackgroundWithTarget:selector:'>
+<arg declared_type='id' index='0' name='target' type='@'/>
+<arg declared_type='SEL' index='1' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='unfollow:andCallback:'>
+<arg declared_type='NSString*' index='0' name='userId' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='callback' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='updatePassword:newPassword:withTarget:selector:'>
+<arg declared_type='NSString*' index='0' name='oldPassword' type='@'/>
+<arg declared_type='NSString*' index='1' name='newPassword' type='@'/>
+<arg declared_type='id' index='2' name='target' type='@'/>
+<arg declared_type='SEL' index='3' name='selector' type=':'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='user'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='username'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='verifyMobilePhone:withBlock:'>
+<arg declared_type='NSString*' index='0' name='code' type='@'/>
+<arg declared_type='AVBooleanResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='BOOL' type='B'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVUserFeedback'>
+<method selector='contact'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='content'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='deleteFeedback:withBlock:'>
+<arg declared_type='AVUserFeedback*' index='0' name='feedback' type='@'/>
+<arg declared_type='AVIdResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='feedbackWithContent:contact:withBlock:'>
+<arg declared_type='NSString*' index='0' name='content' type='@'/>
+<arg declared_type='NSString*' index='1' name='contact' type='@'/>
+<arg declared_type='AVIdResultBlock' function_pointer='true' index='2' name='block' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='objectId'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='setContact:'>
+<arg declared_type='NSString*' index='0' name='contact' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setContent:'>
+<arg declared_type='NSString*' index='0' name='content' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setObjectId:'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='updateFeedback:withBlock:'>
+<arg declared_type='AVUserFeedback*' index='0' name='feedback' type='@'/>
+<arg declared_type='AVIdResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVUserFeedbackAgent'>
+<method selector='postFeedbackThread:block:'>
+<arg declared_type='NSString*' index='0' name='content' type='@'/>
+<arg declared_type='AVIdResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='sharedInstance'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='showConversations:title:contact:'>
+<arg declared_type='UIViewController*' index='0' name='viewController' type='@'/>
+<arg declared_type='NSString*' index='1' name='title' type='@'/>
+<arg declared_type='NSString*' index='2' name='contact' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='syncFeedbackThreadsWithBlock:contact:block:'>
+<arg declared_type='NSString*' index='0' name='title' type='@'/>
+<arg declared_type='NSString*' index='1' name='contact' type='@'/>
+<arg declared_type='AVArrayResultBlock' function_pointer='true' index='2' name='block' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='AVUserFeedbackThread'>
+<method selector='content'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='createAt'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='feedback'>
+<retval declared_type='AVUserFeedback*' type='@'/>
+</method>
+<method class_method='true' selector='feedbackThread:type:withFeedback:'>
+<arg declared_type='NSString*' index='0' name='content' type='@'/>
+<arg declared_type='NSString*' index='1' name='type' type='@'/>
+<arg declared_type='AVUserFeedback*' index='2' name='feedback' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='fetchFeedbackThreadsInBackground:withBlock:'>
+<arg declared_type='AVUserFeedback*' index='0' name='feedback' type='@'/>
+<arg declared_type='AVArrayResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='NSArray*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='saveFeedbackThread:'>
+<arg declared_type='AVUserFeedbackThread*' index='0' name='feedbackThread' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='saveFeedbackThread:withBlock:'>
+<arg declared_type='AVUserFeedbackThread*' index='0' name='feedbackThread' type='@'/>
+<arg declared_type='AVIdResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='saveFeedbackThreadInBackground:withBlock:'>
+<arg declared_type='AVUserFeedbackThread*' index='0' name='feedbackThread' type='@'/>
+<arg declared_type='AVIdResultBlock' function_pointer='true' index='1' name='block' type='@?'>
+<arg declared_type='id' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setContent:'>
+<arg declared_type='NSString*' index='0' name='content' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setCreateAt:'>
+<arg declared_type='NSString*' index='0' name='createAt' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setFeedback:'>
+<arg declared_type='AVUserFeedback*' index='0' name='feedback' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setType:'>
+<arg declared_type='NSString*' index='0' name='type' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='type'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+</class>
+<class name='AVXMLRequestOperation'>
+<method class_method='true' selector='XMLParserRequestOperationWithRequest:success:failure:'>
+<arg declared_type='NSURLRequest*' index='0' name='urlRequest' type='@'/>
+<arg declared_type='void (^)(NSURLRequest *, NSHTTPURLResponse *, NSXMLParser *)' function_pointer='true' index='1' name='success' type='@?'>
+<arg declared_type='NSURLRequest*' type='@'/>
+<arg declared_type='NSHTTPURLResponse*' type='@'/>
+<arg declared_type='NSXMLParser*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSURLRequest *, NSHTTPURLResponse *, NSError *, NSXMLParser *)' function_pointer='true' index='2' name='failure' type='@?'>
+<arg declared_type='NSURLRequest*' type='@'/>
+<arg declared_type='NSHTTPURLResponse*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<arg declared_type='NSXMLParser*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='responseXMLParser'>
+<retval declared_type='NSXMLParser*' type='@'/>
+</method>
+</class>
+<class name='NSData'>
+<method selector='AVbase64EncodedString'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='AVdataFromBase64String:'>
+<arg declared_type='NSString*' index='0' name='aString' type='@'/>
+<retval declared_type='NSData*' type='@'/>
+</method>
+</class>
+<class name='NSDate'>
+<method class_method='true' selector='serverTimeZoneDateFromString:'>
+<arg declared_type='NSString*' index='0' name='fullTimeString' type='@'/>
+<retval declared_type='NSDate*' type='@'/>
+</method>
+</class>
+<class name='NSObject'>
+<method selector='appendPartWithFileData:name:fileName:mimeType:'>
+<arg declared_type='NSData*' index='0' name='data' type='@'/>
+<arg declared_type='NSString*' index='1' name='name' type='@'/>
+<arg declared_type='NSString*' index='2' name='fileName' type='@'/>
+<arg declared_type='NSString*' index='3' name='mimeType' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='appendPartWithFileURL:name:error:'>
+<arg declared_type='NSURL*' index='0' name='fileURL' type='@'/>
+<arg declared_type='NSString*' index='1' name='name' type='@'/>
+<arg declared_type='NSError**' index='2' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='appendPartWithFormData:name:'>
+<arg declared_type='NSData*' index='0' name='data' type='@'/>
+<arg declared_type='NSString*' index='1' name='name' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='appendPartWithHeaders:body:'>
+<arg declared_type='NSDictionary*' index='0' name='headers' type='@'/>
+<arg declared_type='NSData*' index='1' name='body' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='createGroupSignature:groupId:groupPeerIds:action:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<arg declared_type='NSString*' index='1' name='groupId' type='@'/>
+<arg declared_type='NSArray*' index='2' name='groupPeerIds' type='@'/>
+<arg declared_type='NSString*' index='3' name='action' type='@'/>
+<retval declared_type='AVSignature*' type='@'/>
+</method>
+<method selector='createGroupSignature:groupPeerIds:action:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<arg declared_type='NSArray*' index='1' name='groupPeerIds' type='@'/>
+<arg declared_type='NSString*' index='2' name='action' type='@'/>
+<retval declared_type='AVSignature*' type='@'/>
+</method>
+<method selector='createSessionSignature:watchedPeerIds:action:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<arg declared_type='NSArray*' index='1' name='watchedPeerIds' type='@'/>
+<arg declared_type='NSString*' index='2' name='action' type='@'/>
+<retval declared_type='AVSignature*' type='@'/>
+</method>
+<method selector='createSignature:watchedPeerIds:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<arg declared_type='NSArray*' index='1' name='watchedPeerIds' type='@'/>
+<retval declared_type='AVSignature*' type='@'/>
+</method>
+<method selector='group:didReceiveEvent:peerIds:'>
+<arg declared_type='AVGroup*' index='0' name='group' type='@'/>
+<arg declared_type='id' index='1' name='event' type='@'/>
+<arg declared_type='NSArray*' index='2' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='group:didReceiveMessage:'>
+<arg declared_type='AVGroup*' index='0' name='group' type='@'/>
+<arg declared_type='AVMessage*' index='1' name='message' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='group:messageSendFailed:error:'>
+<arg declared_type='AVGroup*' index='0' name='group' type='@'/>
+<arg declared_type='AVMessage*' index='1' name='message' type='@'/>
+<arg declared_type='NSError*' index='2' name='error' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='group:messageSendFinished:'>
+<arg declared_type='AVGroup*' index='0' name='group' type='@'/>
+<arg declared_type='AVMessage*' index='1' name='message' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='object'>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='objectWithoutDataWithObjectId:'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='onSessionError:withException:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSException*' index='1' name='exception' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionMessage:message:peerId:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSString*' index='1' name='message' type='@'/>
+<arg declared_type='NSString*' index='2' name='peerId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionMessageFailure:message:toPeerIds:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSString*' index='1' name='message' type='@'/>
+<arg declared_type='NSArray*' index='2' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionMessageSent:message:toPeerIds:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSString*' index='1' name='message' type='@'/>
+<arg declared_type='NSArray*' index='2' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionOpen:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionPaused:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionResumed:'>
+<arg declared_type='AVSession*' index='0' name='seesion' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionStatusOffline:peers:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSArray*' index='1' name='peerId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionStatusOnline:peers:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSArray*' index='1' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method class_method='true' selector='parseClassName'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='query'>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method class_method='true' selector='registerSubclass'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session:didReceiveMessage:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='AVMessage*' index='1' name='message' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session:didReceiveStatus:peerIds:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='id' index='1' name='status' type='@'/>
+<arg declared_type='NSArray*' index='2' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session:group:didReceiveGroupEvent:memberIds:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='AVGroup*' index='1' name='group' type='@'/>
+<arg declared_type='id' index='2' name='event' type='@'/>
+<arg declared_type='NSArray*' index='3' name='memberIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session:group:didReceiveGroupMessage:fromPeerId:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='AVGroup*' index='1' name='group' type='@'/>
+<arg declared_type='NSString*' index='2' name='message' type='@'/>
+<arg declared_type='NSString*' index='3' name='peerId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session:group:messageSent:success:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='AVGroup*' index='1' name='group' type='@'/>
+<arg declared_type='NSString*' index='2' name='message' type='@'/>
+<arg declared_type='BOOL' index='3' name='success' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session:messageSendFailed:error:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='AVMessage*' index='1' name='message' type='@'/>
+<arg declared_type='NSError*' index='2' name='error' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session:messageSendFinished:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='AVMessage*' index='1' name='message' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sessionFailed:error:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSError*' index='1' name='error' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sessionOpened:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sessionPaused:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sessionResumed:'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='signatureForGroupWithPeerId:groupId:groupPeerIds:action:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<arg declared_type='NSString*' index='1' name='groupId' type='@'/>
+<arg declared_type='NSArray*' index='2' name='groupPeerIds' type='@'/>
+<arg declared_type='NSString*' index='3' name='action' type='@'/>
+<retval declared_type='AVSignature*' type='@'/>
+</method>
+<method selector='signatureForPeerWithPeerId:watchedPeerIds:action:'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<arg declared_type='NSArray*' index='1' name='watchedPeerIds' type='@'/>
+<arg declared_type='NSString*' index='2' name='action' type='@'/>
+<retval declared_type='AVSignature*' type='@'/>
+</method>
+<method selector='throttleBandwidthWithPacketSize:delay:'>
+<arg declared_type='NSUInteger' index='0' name='numberOfBytes' type='I' type64='Q'/>
+<arg declared_type='NSTimeInterval' index='1' name='delay' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<class name='NSString'>
+<method selector='AVMD5String'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+</class>
+<class name='NSURLRequest'>
+<method selector='cURLCommand'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+</class>
+<class name='UIImageView'>
+<method selector='cancelImageRequestOperation'>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setImageWithURL:'>
+<arg declared_type='NSURL*' index='0' name='url' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setImageWithURL:placeholderImage:'>
+<arg declared_type='NSURL*' index='0' name='url' type='@'/>
+<arg declared_type='UIImage*' index='1' name='placeholderImage' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setImageWithURLRequest:placeholderImage:success:failure:'>
+<arg declared_type='NSURLRequest*' index='0' name='urlRequest' type='@'/>
+<arg declared_type='UIImage*' index='1' name='placeholderImage' type='@'/>
+<arg declared_type='void (^)(NSURLRequest *, NSHTTPURLResponse *, UIImage *)' function_pointer='true' index='2' name='success' type='@?'>
+<arg declared_type='NSURLRequest*' type='@'/>
+<arg declared_type='NSHTTPURLResponse*' type='@'/>
+<arg declared_type='UIImage*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<arg declared_type='void (^)(NSURLRequest *, NSHTTPURLResponse *, NSError *)' function_pointer='true' index='3' name='failure' type='@?'>
+<arg declared_type='NSURLRequest*' type='@'/>
+<arg declared_type='NSHTTPURLResponse*' type='@'/>
+<arg declared_type='NSError*' type='@'/>
+<retval declared_type='void' type='v'/>
+</arg>
+<retval declared_type='void' type='v'/>
+</method>
+</class>
+<informal_protocol name='AVGroupDelegate'>
+<method selector='group:didReceiveEvent:peerIds:' type='v20@0:4@8@12@16' type64='v40@0:8@16@24@32'>
+<arg declared_type='AVGroup*' index='0' name='group' type='@'/>
+<arg declared_type='id' index='1' name='event' type='@'/>
+<arg declared_type='NSArray*' index='2' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='group:didReceiveMessage:' type='v16@0:4@8@12' type64='v32@0:8@16@24'>
+<arg declared_type='AVGroup*' index='0' name='group' type='@'/>
+<arg declared_type='AVMessage*' index='1' name='message' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='group:messageSendFailed:error:' type='v20@0:4@8@12@16' type64='v40@0:8@16@24@32'>
+<arg declared_type='AVGroup*' index='0' name='group' type='@'/>
+<arg declared_type='AVMessage*' index='1' name='message' type='@'/>
+<arg declared_type='NSError*' index='2' name='error' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='group:messageSendFinished:' type='v16@0:4@8@12' type64='v32@0:8@16@24'>
+<arg declared_type='AVGroup*' index='0' name='group' type='@'/>
+<arg declared_type='AVMessage*' index='1' name='message' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session:group:didReceiveGroupEvent:memberIds:' type='v24@0:4@8@12@16@20' type64='v48@0:8@16@24@32@40'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='AVGroup*' index='1' name='group' type='@'/>
+<arg declared_type='id' index='2' name='event' type='@'/>
+<arg declared_type='NSArray*' index='3' name='memberIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session:group:didReceiveGroupMessage:fromPeerId:' type='v24@0:4@8@12@16@20' type64='v48@0:8@16@24@32@40'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='AVGroup*' index='1' name='group' type='@'/>
+<arg declared_type='NSString*' index='2' name='message' type='@'/>
+<arg declared_type='NSString*' index='3' name='peerId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session:group:messageSent:success:' type='v24@0:4@8@12@16B20' type64='v44@0:8@16@24@32B40'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='AVGroup*' index='1' name='group' type='@'/>
+<arg declared_type='NSString*' index='2' name='message' type='@'/>
+<arg declared_type='BOOL' index='3' name='success' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+</informal_protocol>
+<informal_protocol name='AVMultipartFormData'>
+<method selector='appendPartWithFileData:name:fileName:mimeType:' type='v24@0:4@8@12@16@20' type64='v48@0:8@16@24@32@40'>
+<arg declared_type='NSData*' index='0' name='data' type='@'/>
+<arg declared_type='NSString*' index='1' name='name' type='@'/>
+<arg declared_type='NSString*' index='2' name='fileName' type='@'/>
+<arg declared_type='NSString*' index='3' name='mimeType' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='appendPartWithFileURL:name:error:' type='B20@0:4@8@12^@16' type64='B40@0:8@16@24^@32'>
+<arg declared_type='NSURL*' index='0' name='fileURL' type='@'/>
+<arg declared_type='NSString*' index='1' name='name' type='@'/>
+<arg declared_type='NSError**' index='2' name='error' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='appendPartWithFormData:name:' type='v16@0:4@8@12' type64='v32@0:8@16@24'>
+<arg declared_type='NSData*' index='0' name='data' type='@'/>
+<arg declared_type='NSString*' index='1' name='name' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='appendPartWithHeaders:body:' type='v16@0:4@8@12' type64='v32@0:8@16@24'>
+<arg declared_type='NSDictionary*' index='0' name='headers' type='@'/>
+<arg declared_type='NSData*' index='1' name='body' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='throttleBandwidthWithPacketSize:delay:' type='v20@0:4I8d12' type64='v32@0:8Q16d24'>
+<arg declared_type='NSUInteger' index='0' name='numberOfBytes' type='I' type64='Q'/>
+<arg declared_type='NSTimeInterval' index='1' name='delay' type='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+</informal_protocol>
+<informal_protocol name='AVSessionDelegate'>
+<method selector='onSessionError:withException:' type='v16@0:4@8@12' type64='v32@0:8@16@24'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSException*' index='1' name='exception' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionMessage:message:peerId:' type='v20@0:4@8@12@16' type64='v40@0:8@16@24@32'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSString*' index='1' name='message' type='@'/>
+<arg declared_type='NSString*' index='2' name='peerId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionMessageFailure:message:toPeerIds:' type='v20@0:4@8@12@16' type64='v40@0:8@16@24@32'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSString*' index='1' name='message' type='@'/>
+<arg declared_type='NSArray*' index='2' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionMessageSent:message:toPeerIds:' type='v20@0:4@8@12@16' type64='v40@0:8@16@24@32'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSString*' index='1' name='message' type='@'/>
+<arg declared_type='NSArray*' index='2' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionOpen:' type='v12@0:4@8' type64='v24@0:8@16'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionPaused:' type='v12@0:4@8' type64='v24@0:8@16'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionResumed:' type='v12@0:4@8' type64='v24@0:8@16'>
+<arg declared_type='AVSession*' index='0' name='seesion' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionStatusOffline:peers:' type='v16@0:4@8@12' type64='v32@0:8@16@24'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSArray*' index='1' name='peerId' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='onSessionStatusOnline:peers:' type='v16@0:4@8@12' type64='v32@0:8@16@24'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSArray*' index='1' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session:didReceiveMessage:' type='v16@0:4@8@12' type64='v32@0:8@16@24'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='AVMessage*' index='1' name='message' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session:didReceiveStatus:peerIds:' type='v20@0:4@8@12@16' type64='v40@0:8@16@24@32'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='id' index='1' name='status' type='@'/>
+<arg declared_type='NSArray*' index='2' name='peerIds' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session:messageSendFailed:error:' type='v20@0:4@8@12@16' type64='v40@0:8@16@24@32'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='AVMessage*' index='1' name='message' type='@'/>
+<arg declared_type='NSError*' index='2' name='error' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='session:messageSendFinished:' type='v16@0:4@8@12' type64='v32@0:8@16@24'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='AVMessage*' index='1' name='message' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sessionFailed:error:' type='v16@0:4@8@12' type64='v32@0:8@16@24'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<arg declared_type='NSError*' index='1' name='error' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sessionOpened:' type='v12@0:4@8' type64='v24@0:8@16'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sessionPaused:' type='v12@0:4@8' type64='v24@0:8@16'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='sessionResumed:' type='v12@0:4@8' type64='v24@0:8@16'>
+<arg declared_type='AVSession*' index='0' name='session' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+</informal_protocol>
+<informal_protocol name='AVSignatureDelegate'>
+<method selector='createGroupSignature:groupId:groupPeerIds:action:' type='@24@0:4@8@12@16@20' type64='@48@0:8@16@24@32@40'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<arg declared_type='NSString*' index='1' name='groupId' type='@'/>
+<arg declared_type='NSArray*' index='2' name='groupPeerIds' type='@'/>
+<arg declared_type='NSString*' index='3' name='action' type='@'/>
+<retval declared_type='AVSignature*' type='@'/>
+</method>
+<method selector='createGroupSignature:groupPeerIds:action:' type='@20@0:4@8@12@16' type64='@40@0:8@16@24@32'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<arg declared_type='NSArray*' index='1' name='groupPeerIds' type='@'/>
+<arg declared_type='NSString*' index='2' name='action' type='@'/>
+<retval declared_type='AVSignature*' type='@'/>
+</method>
+<method selector='createSessionSignature:watchedPeerIds:action:' type='@20@0:4@8@12@16' type64='@40@0:8@16@24@32'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<arg declared_type='NSArray*' index='1' name='watchedPeerIds' type='@'/>
+<arg declared_type='NSString*' index='2' name='action' type='@'/>
+<retval declared_type='AVSignature*' type='@'/>
+</method>
+<method selector='createSignature:watchedPeerIds:' type='@16@0:4@8@12' type64='@32@0:8@16@24'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<arg declared_type='NSArray*' index='1' name='watchedPeerIds' type='@'/>
+<retval declared_type='AVSignature*' type='@'/>
+</method>
+<method selector='signatureForGroupWithPeerId:groupId:groupPeerIds:action:' type='@24@0:4@8@12@16@20' type64='@48@0:8@16@24@32@40'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<arg declared_type='NSString*' index='1' name='groupId' type='@'/>
+<arg declared_type='NSArray*' index='2' name='groupPeerIds' type='@'/>
+<arg declared_type='NSString*' index='3' name='action' type='@'/>
+<retval declared_type='AVSignature*' type='@'/>
+</method>
+<method selector='signatureForPeerWithPeerId:watchedPeerIds:action:' type='@20@0:4@8@12@16' type64='@40@0:8@16@24@32'>
+<arg declared_type='NSString*' index='0' name='peerId' type='@'/>
+<arg declared_type='NSArray*' index='1' name='watchedPeerIds' type='@'/>
+<arg declared_type='NSString*' index='2' name='action' type='@'/>
+<retval declared_type='AVSignature*' type='@'/>
+</method>
+</informal_protocol>
+<informal_protocol name='AVSubclassing'>
+<method class_method='true' selector='object' type='@8@0:4' type64='@16@0:8'>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='objectWithoutDataWithObjectId:' type='@12@0:4@8' type64='@24@0:8@16'>
+<arg declared_type='NSString*' index='0' name='objectId' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='parseClassName' type='@8@0:4' type64='@16@0:8'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='query' type='@8@0:4' type64='@16@0:8'>
+<retval declared_type='AVQuery*' type='@'/>
+</method>
+<method class_method='true' selector='registerSubclass' type='v8@0:4' type64='v16@0:8'>
+<retval declared_type='void' type='v'/>
+</method>
+</informal_protocol>
+</signatures>

@@ -1,0 +1,21 @@
+PODS:
+  - BButton (4.0.1)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.1)
+  - SVProgressHUD (1.0)
+  - XHScrollMenu (0.1.4)
+
+DEPENDENCIES:
+  - BButton
+  - SDWebImage
+  - SVProgressHUD
+  - XHScrollMenu
+
+SPEC CHECKSUMS:
+  BButton: 396a5e59648e3f687b7d8201b88ebdbad6e36b59
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
+  XHScrollMenu: e7cbd613cbb4df9aa299a26820474b662d9887c3
+
+COCOAPODS: 0.34.4
